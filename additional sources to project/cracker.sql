@@ -22,5 +22,12 @@ CREATE TABLE IF NOT EXISTS hospitals (
 `name` varchar(100), 
 PRIMARY KEY (`id`) );
 
+CREATE TABLE IF NOT EXISTS departments (
+`id` int NOT NULL AUTO_INCREMENT,
+`name` varchar(100),
+`id_hospital` int,
+PRIMARY KEY (`id`)
+FOREIGN KEY (`id_hospital`) REFERENCES hospitals(`id`) );
+
 INSERT INTO administrators (name, surname, email, login, password) 
 VALUES ("Valeria", "Shpakovskaya", "valeria@gmail.com", "admin", "admin");

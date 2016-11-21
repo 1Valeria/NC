@@ -38,6 +38,16 @@ public enum EnumRoutes {
             this.command = new AcceptRequestsCommand();
         }
     },
+    ADD_DEPARTMENT {
+        {
+            this.command = new AddDepartmentCommand();
+        }
+    },
+    DEPARTMENT_ADDED {
+        {
+            this.command = new DepartmentAddedCommand();
+        }
+    },
     ADD_HOSPITAL {
         {
             this.command = new AddHospitalCommand();

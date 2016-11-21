@@ -5,6 +5,7 @@ import by.nc.shpakovskaya.beans.diagnosis.Diagnosis;
 import by.nc.shpakovskaya.beans.people.stuff.Doctor;
 import by.nc.shpakovskaya.beans.people.customer.Patient;
 import by.nc.shpakovskaya.beans.people.stuff.Nurse;
+import by.nc.shpakovskaya.dao.Entity;
 
 import java.io.Serializable;
 import java.util.GregorianCalendar;
@@ -15,7 +16,7 @@ import java.util.Set;
 /**
  * Created by Valeria on 18.10.2016.
  */
-public class Department implements Serializable, Comparable {
+public class Department extends Entity implements Serializable, Comparable {
 
     private static int counter = 0;
 
@@ -30,6 +31,8 @@ public class Department implements Serializable, Comparable {
     private Set rooms = new TreeSet<Room>();
 
     private int id;
+
+    public Department(){}
 
     public Department(String name, Hospital hospital) {
         this.name = name;

@@ -58,8 +58,15 @@
     <a href="/controller?command=accept_requests">
         Подтвердить регистрационные запросы
     </a>
+    <br/>
+    <br/>
     <a href="/controller?command=add_hospital">
         Зарегестрировать новую больницу
+    </a>
+    <br/>
+    <br/>
+    <a href="/controller?command=add_department">
+        Зарегестрировать на больницу отделение
     </a>
 
 </div>

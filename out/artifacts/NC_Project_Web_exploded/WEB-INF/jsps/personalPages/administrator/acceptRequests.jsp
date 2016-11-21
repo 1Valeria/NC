@@ -17,10 +17,28 @@
     <meta charset="UTF-8"/>
     <title>Подтверждение заявок на регистрацию</title>
     <style>
+        table{
+            width: auto;
+            height: auto;
+            border: 1px solid black;
+        }
+        td {
+            padding: 5px 10px 5px 5px;
+            border: 1px solid black;
+        }
+
+        th {
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        caption {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
         hr {
             border: none; /* Убираем границу */
             background-color: #EEEEEE; /* Цвет линии */
-            color: #EEEEEE; /* Цвет линии для IE6-7 */
             height: 2px; /* Толщина линии */
         }
         .gradient{
@@ -59,15 +77,28 @@
         request.setAttribute("clients", clientsList);
     %>
     <br/>
-    Пользователи
-    ...
-    <c:forEach items="${clients}" var="client" varStatus="status">
-        <p>
-            <br/>
-            ${client.getName()} ${" "} ${client.getSurname()}
-        </p>
-    </c:forEach>
-
+    <h3>Пользователи</h3>
+    <br/>
+    <table border="5" width="100%" cellpadding="5">
+        <tr>
+            <th> Чек </th>
+            <th> Имя </th>
+            <th> Фамилия </th>
+            <th> Почта </th>
+            <th> Логин </th>
+            <th> Пароль </th>
+        </tr>
+        <c:forEach items="${clients}" var="client" varStatus="status">
+            <tr>
+                <th>  <input type="checkbox" name="option" value="a"><Br></th>
+                <th> ${client.getName()}</th>
+                <th> ${client.getSurname()}</th>
+                <th> ${client.getEmail()}</th>
+                <th> ${client.getLogin()}</th>
+                <th> ${client.getPassword()}</th>
+            </tr>
+        </c:forEach>
+    </table>
 </div>
 
 <div class="gradient"></div>

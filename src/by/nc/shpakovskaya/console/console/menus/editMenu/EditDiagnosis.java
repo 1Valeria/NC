@@ -1,7 +1,5 @@
 package by.nc.shpakovskaya.console.console.menus.editMenu;
 
-import by.nc.shpakovskaya.beans.Hospital;
-
 /**
  * Created by Valeria on 28.10.2016.
  */
