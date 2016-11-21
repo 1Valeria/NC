@@ -95,6 +95,7 @@ public class ClientDAO implements CommonDAO<Client> {
         List<Client> clients = new ArrayList<>();
         while (resultSet.next()) {
             Client client = new Client();
+            client.setId(resultSet.getInt(1));
             client.setName(resultSet.getString(2));
             client.setSurname(resultSet.getString(3));
             client.setEmail(resultSet.getString(4));

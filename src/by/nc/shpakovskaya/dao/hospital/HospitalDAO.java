@@ -91,6 +91,7 @@ public class HospitalDAO implements CommonDAO<Hospital> {
         List<Hospital> hospitals = new ArrayList<>();
         while (resultSet.next()) {
             Hospital hospital = new Hospital();
+            hospital.setId(resultSet.getInt(1));
             hospital.setName(resultSet.getString(2));
             hospitals.add(hospital);
         }

@@ -92,6 +92,7 @@ public class DepartmentDAO implements CommonDAO<Department> {
         List<Department> departments = new ArrayList<>();
         while (resultSet.next()) {
             Department department = new Department();
+            department.setId(resultSet.getInt(1));
             department.setName(resultSet.getString(2));
             departments.add(department);
         }

@@ -7,14 +7,13 @@ import by.nc.shpakovskaya.dao.Entity;
  */
 public class Client extends Entity{
 
-    private Integer id;
+    private int id;
     private String name;
     private String surname;
     private String email;
     private String login;
     private String password;
     private String admit = "no";
-
 
     public Client(String name, String surname, String email, String login, String password) {
         this.name = name;
@@ -69,9 +68,11 @@ public class Client extends Entity{
     }
 
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
+
+    public int getId(){return id;}
 
     public String getAdmit() {
         return admit;
@@ -85,26 +86,30 @@ public class Client extends Entity{
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
 
         Client client = (Client) o;
 
-        if (id != null ? !id.equals(client.id) : client.id != null) return false;
+        if (id != client.id) return false;
         if (name != null ? !name.equals(client.name) : client.name != null) return false;
         if (surname != null ? !surname.equals(client.surname) : client.surname != null) return false;
+        if (email != null ? !email.equals(client.email) : client.email != null) return false;
         if (login != null ? !login.equals(client.login) : client.login != null) return false;
         if (password != null ? !password.equals(client.password) : client.password != null) return false;
-        return email != null ? email.equals(client.email) : client.email == null;
+        return admit != null ? admit.equals(client.admit) : client.admit == null;
 
     }
 
     @Override
     public int hashCode() {
-        int result = id != null ? id.hashCode() : 0;
+        int result = super.hashCode();
+        result = 31 * result + id;
         result = 31 * result + (name != null ? name.hashCode() : 0);
         result = 31 * result + (surname != null ? surname.hashCode() : 0);
+        result = 31 * result + (email != null ? email.hashCode() : 0);
         result = 31 * result + (login != null ? login.hashCode() : 0);
         result = 31 * result + (password != null ? password.hashCode() : 0);
-        result = 31 * result + (email != null ? email.hashCode() : 0);
+        result = 31 * result + (admit != null ? admit.hashCode() : 0);
         return result;
     }
 

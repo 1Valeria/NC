@@ -6,7 +6,7 @@ import by.nc.shpakovskaya.dao.Entity;
  * Created by Valeria on 18.11.2016.
  */
 public class Administrator extends Entity{
-    private Integer id;
+    private int id;
     private String name;
     private String surname;
     private String email;
@@ -65,6 +65,8 @@ public class Administrator extends Entity{
         this.email = email;
     }
 
+    public int getId(){return id;}
+
     public void setId(Integer id) {
         this.id = id;
     }
@@ -73,27 +75,28 @@ public class Administrator extends Entity{
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
 
-        Administrator administrator = (Administrator) o;
+        Administrator that = (Administrator) o;
 
-        if (id != null ? !id.equals(administrator.id) : administrator.id != null) return false;
-        if (name != null ? !name.equals(administrator.name) : administrator.name != null) return false;
-        if (surname != null ? !surname.equals(administrator.surname) : administrator.surname != null) return false;
-        if (login != null ? !login.equals(administrator.login) : administrator.login != null) return false;
-        if (password != null ? !password.equals(administrator.password) : administrator.password != null) return false;
-        return email != null ? email.equals(administrator.email) : administrator.email == null;
+        if (id != that.id) return false;
+        if (name != null ? !name.equals(that.name) : that.name != null) return false;
+        if (surname != null ? !surname.equals(that.surname) : that.surname != null) return false;
+        if (email != null ? !email.equals(that.email) : that.email != null) return false;
+        if (login != null ? !login.equals(that.login) : that.login != null) return false;
+        return password != null ? password.equals(that.password) : that.password == null;
 
     }
 
     @Override
     public int hashCode() {
-        int result = id != null ? id.hashCode() : 0;
+        int result = super.hashCode();
+        result = 31 * result + id;
         result = 31 * result + (name != null ? name.hashCode() : 0);
         result = 31 * result + (surname != null ? surname.hashCode() : 0);
+        result = 31 * result + (email != null ? email.hashCode() : 0);
         result = 31 * result + (login != null ? login.hashCode() : 0);
         result = 31 * result + (password != null ? password.hashCode() : 0);
-        result = 31 * result + (email != null ? email.hashCode() : 0);
         return result;
     }
-
 }

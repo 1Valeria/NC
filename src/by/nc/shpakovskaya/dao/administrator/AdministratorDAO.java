@@ -97,6 +97,7 @@ public class AdministratorDAO implements CommonDAO<Administrator> {
         List<Administrator> administrators = new ArrayList<>();
         while (resultSet.next()) {
             Administrator administrator = new Administrator();
+            administrator.setId(resultSet.getInt(1));
             administrator.setName(resultSet.getString(2));
             administrator.setSurname(resultSet.getString(3));
             administrator.setEmail(resultSet.getString(4));

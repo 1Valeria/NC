@@ -13,10 +13,15 @@ import java.util.TreeSet;
  */
 public class Hospital extends Entity implements Serializable {
 
+    private int id;
     private String name;
     private Set departments = new TreeSet<Department>();
 
     public Hospital(){}
+
+    public int getId() {
+        return id;
+    }
 
     public Hospital(String name) {
         this.name = name;
@@ -24,6 +29,10 @@ public class Hospital extends Entity implements Serializable {
 
     public String getName() {
         return name;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public void setName(String name) {

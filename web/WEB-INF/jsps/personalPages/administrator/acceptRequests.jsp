@@ -82,6 +82,7 @@
     <table border="5" width="100%" cellpadding="5">
         <tr>
             <th> Чек </th>
+            <th> Id </th>
             <th> Имя </th>
             <th> Фамилия </th>
             <th> Почта </th>
@@ -91,6 +92,7 @@
         <c:forEach items="${clients}" var="client" varStatus="status">
             <tr>
                 <th>  <input type="checkbox" name="option" value="a"><Br></th>
+                <th> ${client.getId()}</th>
                 <th> ${client.getName()}</th>
                 <th> ${client.getSurname()}</th>
                 <th> ${client.getEmail()}</th>

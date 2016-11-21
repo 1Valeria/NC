@@ -11,6 +11,6 @@
     <title>Успех</title>
 </head>
 <body>
-
+Департмент добавлен
 </body>
 </html>
