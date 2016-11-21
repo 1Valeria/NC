@@ -1,0 +1,40 @@
+10-Nov-2016 00:54:13.147 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+10-Nov-2016 00:54:13.885 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+10-Nov-2016 09:50:43.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.6
+10-Nov-2016 09:50:43.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2016 20:15:31 UTC
+10-Nov-2016 09:50:43.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.6.0
+10-Nov-2016 09:50:43.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+10-Nov-2016 09:50:43.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-Nov-2016 09:50:43.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Nov-2016 09:50:43.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_77\jre
+10-Nov-2016 09:50:43.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_77-b03
+10-Nov-2016 09:50:43.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Nov-2016 09:50:43.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Education_Netcracker\Java projects\NC_Project\additional sources to project\localtest\apache-tomcat-8.5.6
+10-Nov-2016 09:50:43.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Education_Netcracker\Java projects\NC_Project\additional sources to project\localtest\apache-tomcat-8.5.6
+10-Nov-2016 09:50:43.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:/Education_Netcracker/Java projects/NC_Project/additional sources to project/localtest/apache-tomcat-8.5.6/conf/logging.properties
+10-Nov-2016 09:50:43.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Nov-2016 09:50:43.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Nov-2016 09:50:43.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Nov-2016 09:50:43.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:/Education_Netcracker/Java projects/NC_Project/additional sources to project/localtest/apache-tomcat-8.5.6
+10-Nov-2016 09:50:43.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:/Education_Netcracker/Java projects/NC_Project/additional sources to project/localtest/apache-tomcat-8.5.6
+10-Nov-2016 09:50:43.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:/Education_Netcracker/Java projects/NC_Project/additional sources to project/localtest/apache-tomcat-8.5.6/temp
+10-Nov-2016 09:50:43.780 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_77\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Valeria\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Valeria\bin;C:\Python27;C:\Python27\Scripts;C:\Python27\Lib\site-packages\django\bin;C:\Program Files (x86)\Java\jdk1.7.0_71\bin;C:\Program Files (x86)\Skype\Phone;C:\Python27\Lib\site-packages\pip;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Microsoft\Web Platform Installer;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files (x86)\Java\jdk1.7.0_71\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.
+10-Nov-2016 09:50:45.247 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Nov-2016 09:50:45.567 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Nov-2016 09:50:45.573 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Nov-2016 09:50:45.584 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Nov-2016 09:50:45.585 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3908 ms
+10-Nov-2016 09:50:46.047 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+10-Nov-2016 09:50:46.049 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.6
+10-Nov-2016 09:50:49.296 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [385] milliseconds.
+10-Nov-2016 09:50:49.419 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+10-Nov-2016 09:50:49.434 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+10-Nov-2016 09:50:49.439 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3854 ms
+10-Nov-2016 09:51:49.543 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+10-Nov-2016 09:51:50.305 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+10-Nov-2016 09:52:20.335 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+10-Nov-2016 09:52:20.744 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+10-Nov-2016 20:57:25.556 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+10-Nov-2016 20:57:26.603 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+10-Nov-2016 20:57:56.630 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+10-Nov-2016 20:57:57.009 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed

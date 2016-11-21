@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ant build">
+
+  <path id="common_library">
+    <pathelement location="additional sources to project\localtest\apache-tomcat-8.5.6\lib\servlet-api.jar"/>
+  </path>
+
+  <target name="clean">
+          <delete dir="web/WEB-INF/classes/by"/>
+  </target>
+
+  <target name="compile" depends="clean">
+    <javac srcdir="src" destdir="web/WEB-INF/classes" failonerror="true" fork="true">
+      <classpath refid="common_library"/>
+    </javac>
+  </target>
+
+</project>

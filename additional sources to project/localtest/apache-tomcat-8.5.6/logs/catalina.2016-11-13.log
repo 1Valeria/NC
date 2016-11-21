@@ -1,0 +1,100 @@
+13-Nov-2016 10:43:06.621 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+13-Nov-2016 10:43:07.754 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+13-Nov-2016 10:43:57.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.6
+13-Nov-2016 10:43:57.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2016 20:15:31 UTC
+13-Nov-2016 10:43:57.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.6.0
+13-Nov-2016 10:43:57.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2016 10:43:57.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2016 10:43:57.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2016 10:43:57.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_77\jre
+13-Nov-2016 10:43:57.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_77-b03
+13-Nov-2016 10:43:57.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2016 10:43:57.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Education_Netcracker\Java projects\NC_Project\additional sources to project\localtest\apache-tomcat-8.5.6
+13-Nov-2016 10:43:57.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Education_Netcracker\Java projects\NC_Project\additional sources to project\localtest\apache-tomcat-8.5.6
+13-Nov-2016 10:43:57.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:/Education_Netcracker/Java projects/NC_Project/additional sources to project/localtest/apache-tomcat-8.5.6/conf/logging.properties
+13-Nov-2016 10:43:57.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2016 10:43:57.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Nov-2016 10:43:57.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Nov-2016 10:43:57.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:/Education_Netcracker/Java projects/NC_Project/additional sources to project/localtest/apache-tomcat-8.5.6
+13-Nov-2016 10:43:57.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:/Education_Netcracker/Java projects/NC_Project/additional sources to project/localtest/apache-tomcat-8.5.6
+13-Nov-2016 10:43:57.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:/Education_Netcracker/Java projects/NC_Project/additional sources to project/localtest/apache-tomcat-8.5.6/temp
+13-Nov-2016 10:43:57.253 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_77\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Valeria\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Valeria\bin;C:\Python27;C:\Python27\Scripts;C:\Python27\Lib\site-packages\django\bin;C:\Program Files (x86)\Java\jdk1.7.0_71\bin;C:\Program Files (x86)\Skype\Phone;C:\Python27\Lib\site-packages\pip;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Microsoft\Web Platform Installer;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files (x86)\Java\jdk1.7.0_71\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.
+13-Nov-2016 10:43:57.922 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2016 10:43:58.217 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2016 10:43:58.220 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2016 10:43:58.223 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2016 10:43:58.224 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3067 ms
+13-Nov-2016 10:43:58.312 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+13-Nov-2016 10:43:58.313 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.6
+13-Nov-2016 10:44:00.671 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [658] milliseconds.
+13-Nov-2016 10:44:00.785 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+13-Nov-2016 10:44:00.804 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+13-Nov-2016 10:44:00.810 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2585 ms
+13-Nov-2016 10:44:40.896 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+13-Nov-2016 10:44:42.549 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+13-Nov-2016 10:44:52.551 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+13-Nov-2016 10:44:52.978 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+13-Nov-2016 10:46:02.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.6
+13-Nov-2016 10:46:02.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2016 20:15:31 UTC
+13-Nov-2016 10:46:02.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.6.0
+13-Nov-2016 10:46:02.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2016 10:46:02.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2016 10:46:02.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2016 10:46:02.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_77\jre
+13-Nov-2016 10:46:02.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_77-b03
+13-Nov-2016 10:46:02.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2016 10:46:02.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Education_Netcracker\Java projects\NC_Project\additional sources to project\localtest\apache-tomcat-8.5.6
+13-Nov-2016 10:46:02.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Education_Netcracker\Java projects\NC_Project\additional sources to project\localtest\apache-tomcat-8.5.6
+13-Nov-2016 10:46:02.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:/Education_Netcracker/Java projects/NC_Project/additional sources to project/localtest/apache-tomcat-8.5.6/conf/logging.properties
+13-Nov-2016 10:46:02.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2016 10:46:02.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Nov-2016 10:46:02.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Nov-2016 10:46:02.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:/Education_Netcracker/Java projects/NC_Project/additional sources to project/localtest/apache-tomcat-8.5.6
+13-Nov-2016 10:46:02.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:/Education_Netcracker/Java projects/NC_Project/additional sources to project/localtest/apache-tomcat-8.5.6
+13-Nov-2016 10:46:02.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:/Education_Netcracker/Java projects/NC_Project/additional sources to project/localtest/apache-tomcat-8.5.6/temp
+13-Nov-2016 10:46:02.459 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_77\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Valeria\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Valeria\bin;C:\Python27;C:\Python27\Scripts;C:\Python27\Lib\site-packages\django\bin;C:\Program Files (x86)\Java\jdk1.7.0_71\bin;C:\Program Files (x86)\Skype\Phone;C:\Python27\Lib\site-packages\pip;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Microsoft\Web Platform Installer;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files (x86)\Java\jdk1.7.0_71\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.
+13-Nov-2016 10:46:02.708 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2016 10:46:02.846 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2016 10:46:02.851 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2016 10:46:02.855 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2016 10:46:02.856 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1193 ms
+13-Nov-2016 10:46:02.900 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+13-Nov-2016 10:46:02.900 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.6
+13-Nov-2016 10:46:04.175 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [310] milliseconds.
+13-Nov-2016 10:46:04.201 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+13-Nov-2016 10:46:04.212 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+13-Nov-2016 10:46:04.216 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1361 ms
+13-Nov-2016 10:47:14.289 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+13-Nov-2016 10:47:14.837 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+13-Nov-2016 10:47:23.728 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+13-Nov-2016 11:04:07.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.6
+13-Nov-2016 11:04:07.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2016 20:15:31 UTC
+13-Nov-2016 11:04:07.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.6.0
+13-Nov-2016 11:04:07.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2016 11:04:07.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2016 11:04:07.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2016 11:04:07.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_77\jre
+13-Nov-2016 11:04:07.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_77-b03
+13-Nov-2016 11:04:07.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2016 11:04:07.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Education_Netcracker\Java projects\NC_Project\additional sources to project\localtest\apache-tomcat-8.5.6
+13-Nov-2016 11:04:07.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Education_Netcracker\Java projects\NC_Project\additional sources to project\localtest\apache-tomcat-8.5.6
+13-Nov-2016 11:04:07.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:/Education_Netcracker/Java projects/NC_Project/additional sources to project/localtest/apache-tomcat-8.5.6/conf/logging.properties
+13-Nov-2016 11:04:07.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2016 11:04:07.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Nov-2016 11:04:07.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Nov-2016 11:04:07.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:/Education_Netcracker/Java projects/NC_Project/additional sources to project/localtest/apache-tomcat-8.5.6
+13-Nov-2016 11:04:07.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:/Education_Netcracker/Java projects/NC_Project/additional sources to project/localtest/apache-tomcat-8.5.6
+13-Nov-2016 11:04:07.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:/Education_Netcracker/Java projects/NC_Project/additional sources to project/localtest/apache-tomcat-8.5.6/temp
+13-Nov-2016 11:04:07.488 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_77\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Valeria\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Valeria\bin;C:\Python27;C:\Python27\Scripts;C:\Python27\Lib\site-packages\django\bin;C:\Program Files (x86)\Java\jdk1.7.0_71\bin;C:\Program Files (x86)\Skype\Phone;C:\Python27\Lib\site-packages\pip;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Microsoft\Web Platform Installer;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files (x86)\Java\jdk1.7.0_71\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.
+13-Nov-2016 11:04:07.767 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2016 11:04:07.900 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2016 11:04:07.904 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2016 11:04:07.907 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2016 11:04:07.908 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1207 ms
+13-Nov-2016 11:04:07.946 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+13-Nov-2016 11:04:07.947 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.6
+13-Nov-2016 11:04:09.209 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [317] milliseconds.
+13-Nov-2016 11:04:09.237 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+13-Nov-2016 11:04:09.248 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+13-Nov-2016 11:04:09.253 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1344 ms
+13-Nov-2016 11:06:55.216 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received

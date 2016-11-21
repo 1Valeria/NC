@@ -1,0 +1,103 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:jsp="http://java.sun.com/JSP/Page">
+<%@ page contentType="text/html; charset=utf-8" %>
+<head>
+    <link href="../../login/css/style.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        a {
+            text-decoration: none;
+            list-style-type: none;
+        }
+    </style>
+    <script type="text/javascript">
+        function validate()
+        {
+            var name = document.getElementById("name");
+            var surname = document.getElementById("surname");
+            var email = document.getElementById("email");
+            var login = document.getElementById("login");
+            var password1 = document.getElementById("password1");
+            var password2 = document.getElementById("password2");
+            var valid = false;
+            if(name.value.length==0  ||
+                    surname.value.length==0 ||
+                    email.value.length==0 ||
+                    login.value.length==0 ||
+                    password1.value.length==0 ||
+                    password2.value.length==0 )
+            {
+                alert("Заполните все поля");
+                valid = false;
+            }else{
+                if(password1.value!=password2.value) {
+                    alert("Пароли должны совпадать");
+                    valid = false;
+                }
+                else valid=true;
+            }
+            return valid;
+        };
+
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Регистрация</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+</head>
+<body>
+
+<%--     +++++++++++++++   navigation bar   +++++++++++++++++      --%>
+<ul class="topnav" id="myTopnav">
+    <li><a class="active" href="/controller?command=main">Главная</a></li>
+    <li><a href="/controller?command=enter">Войти</a></li>
+</ul>
+<%--     +++++++++++++++   navigation bar   +++++++++++++++++      --%>
+
+<div id="wrapper">
+
+    <form name="login-form" class="login-form" action="/controller?command=submit" method="post" onsubmit="return validate();">
+
+        <div class="header">
+            <h1>Регистрация</h1>
+            <span>Введите ваши регистрационные данные</span>
+        </div>
+
+        <div class="content">
+            <%--<%--%>
+                <%--String login = request.getParameter("loginError");--%>
+            <%--%>--%>
+            <%--&lt;%&ndash;<%=login%>&ndash;%&gt;--%>
+            <%--<c:set var="salary" scope="session" value="<%=login%>"/>--%>
+            <%--<c:if test="${ salary.equals()}">--%>
+            <p>Имя</p>
+            <input name="name" type="text" class="input username" value="Имя" id="name" onfocus="this.value=''"/>
+            <%--<p><style font size="5" color="red" face="Arial"/>Фамилия</p>--%>
+            <p>Фамилия</p>
+            <input name="surname" type="text" class="input username" value="Фамилия" id="surname" onfocus="this.value=''"/>
+            <p>Логин</p>
+            <input name="login" type="text" class="input username" value="Логин" id="login" onfocus="this.value=''"/>
+            <p>Почта</p>
+            <input name="email" type="text" class="input username" value="Email" id="email" onfocus="this.value=''"/>
+            <p>Пароль</p>
+            <input name="password1" type="password" class="input password" value="Пароль" id="password1" onfocus="this.value=''"/>
+            <p>Повторите пароль</p>
+            <input name="password2" type="password" class="input password" value="Пароль" id="password2" onfocus="this.value=''"/>
+
+        </div>
+
+        <div class="footer">
+            <input type="submit" name="submit" value="ЗАРЕГЕСТРИРОВАТЬСЯ" class="button" />
+
+            <a href = "/controller?command=enter"  class="register" >
+                Назад
+            </a>
+
+        </div>
+
+    </form>
+
+</div>
+<div class="gradient"></div>
+
+</body>
+</html>

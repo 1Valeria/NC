@@ -1,0 +1,13 @@
+by.nc.shpakovskaya.console
+by.nc.shpakovskaya.console.console
+by.nc.shpakovskaya.console.console.menus
+by.nc.shpakovskaya.console.console.menus.editMenu
+by.nc.shpakovskaya.beans
+by.nc.shpakovskaya.beans.departments
+by.nc.shpakovskaya.beans.diagnosis
+by.nc.shpakovskaya.beans.people
+by.nc.shpakovskaya.beans.people.customer
+by.nc.shpakovskaya.beans.people.stuff
+by.nc.shpakovskaya.console.exceptions
+by.nc.shpakovskaya.console.serialization
+by.nc.shpakovskaya.console.utils
