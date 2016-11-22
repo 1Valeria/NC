@@ -11,6 +11,7 @@ public class LogoutCommand implements ActionCommand{
 
         @Override
         public String execute(HttpServletRequest request) {
+            System.out.println("End of session");
             request.getSession().invalidate();
             return "/WEB-INF/jsps/main.jsp";
     }
