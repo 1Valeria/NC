@@ -48,9 +48,10 @@
 </head>
 
 <body>
-
+<% String login = request.getSession().getAttribute("login").toString(); %>
 <%--     +++++++++++++++   navigation bar   +++++++++++++++++      --%>
 <ul class="topnav" id="myTopnav">
+    <li><a class="active" href="/controller?command=personal"><%=login%></a></li>
     <li><a class="active" href="/controller?command=main">Главная</a></li>
     <li><a href="/controller?command=login">Выйти</a></li>
 </ul>
