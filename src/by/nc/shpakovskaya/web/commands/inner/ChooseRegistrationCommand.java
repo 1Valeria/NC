@@ -5,13 +5,12 @@ import by.nc.shpakovskaya.web.commands.ActionCommand;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * Created by Valeria on 14.11.2016.
+ * Created by Valeria on 24.11.2016.
  */
-public class RegistrationCommand implements ActionCommand {
-
+public class ChooseRegistrationCommand implements ActionCommand {
     @Override
     public String execute(HttpServletRequest request) {
 
-        return "/WEB-INF/jsps/registrationUser.jsp";
+        return "/WEB-INF/jsps/chooseregisterform.jsp";
     }
 }

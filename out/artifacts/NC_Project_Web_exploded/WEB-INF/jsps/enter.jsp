@@ -19,7 +19,7 @@
 
 <ul class="topnav" id="myTopnav">
     <li><a class="active" href="/controller?command=main">Главная</a></li>
-    <li><a href="/controller?command=registration">Зарегестрироваться</a></li>
+    <li><a href="/controller?command=choose_registration">Зарегестрироваться</a></li>
 </ul>
 
 <%--     +++++++++++++++   navigation bar   +++++++++++++++++      --%>
@@ -46,7 +46,7 @@
         <div class="footer">
             <input type="submit" name="submit" value="ВОЙТИ" class="button" />
 
-            <a href = "/controller?command=registration"  class="register">
+            <a href = "/controller?command=choose_registration"  class="register">
                 Регистрация
             </a>
         </div>

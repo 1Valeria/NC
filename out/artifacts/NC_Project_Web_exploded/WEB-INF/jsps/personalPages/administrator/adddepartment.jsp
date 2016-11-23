@@ -112,9 +112,18 @@
                         </tr>
                     </c:forEach>
                 </table>
-                <p id="answer"></p>
+
             </div>
 
+            <a href="/controller?command=add_department" id="answer"/>
+
+            <%--<div id="wrapper">--%>
+                <%--<form name="login-form" action="/controller?command=department_add"  class="login-form" method="post">--%>
+                    <%--<div class="footer">--%>
+                        <%--<input type="submit" id="answer"/>--%>
+                    <%--</div>--%>
+                <%--</form>--%>
+            <%--</div>--%>
 
     </body>
 </html>

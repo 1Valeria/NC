@@ -22,7 +22,7 @@
                         <%--<li><a href="/controller?command=">Личный кабинет</a></li>--%>
                     <%--</c:when>--%>
                     <li><a href="/controller?command=enter">Войти</a></li>
-                    <li><a href="/controller?command=registration">Зарегестрироваться</a></li>
+                    <li><a href="/controller?command=choose_registration">Выбрать форму регистрации</a></li>
                 <%--</c:choose>--%>
 
             </ul>

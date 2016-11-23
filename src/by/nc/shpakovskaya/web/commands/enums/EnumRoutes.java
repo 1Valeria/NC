@@ -23,9 +23,19 @@ public enum EnumRoutes {
             this.command = new PersonalCommand();
         }
     },
+    CHOOSE_REGISTRATION {
+        {
+            this.command = new ChooseRegistrationCommand();
+        }
+    },
     REGISTRATION {
         {
             this.command = new RegistrationCommand();
+        }
+    },
+    REGISTRATION_DOCTOR {
+        {
+            this.command = new RegistrationDoctorCommand();
         }
     },
     SUBMIT {

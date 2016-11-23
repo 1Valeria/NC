@@ -63,12 +63,6 @@
         </div>
 
         <div class="content">
-            <%--<%--%>
-                <%--String login = request.getParameter("loginError");--%>
-            <%--%>--%>
-            <%--&lt;%&ndash;<%=login%>&ndash;%&gt;--%>
-            <%--<c:set var="salary" scope="session" value="<%=login%>"/>--%>
-            <%--<c:if test="${ salary.equals()}">--%>
             <p>Имя</p>
             <input name="name" type="text" class="input username" value="Имя" id="name" onfocus="this.value=''"/>
             <%--<p><style font size="5" color="red" face="Arial"/>Фамилия</p>--%>
@@ -88,7 +82,7 @@
         <div class="footer">
             <input type="submit" name="submit" value="ЗАРЕГЕСТРИРОВАТЬСЯ" class="button" />
 
-            <a href = "/controller?command=enter"  class="register" >
+            <a href = "/controller?command=choose_registration"  class="register" >
                 Назад
             </a>
 
