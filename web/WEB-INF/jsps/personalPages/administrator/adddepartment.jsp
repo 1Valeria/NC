@@ -50,10 +50,27 @@
     %>
 
     <script>
+        var arr = [];
         function myFunction(id) {
-            var x = document.getElementById(id.toString()).checked;
-            alert("checked " + x + " " + id);
+            window.x = document.getElementById(id.toString()).checked;
+            if (x){
+                arr.push(id);
+                document.getElementById("answer").innerHTML += id;
+            }
+            else{
+                for (var j=0; j<arr.length;j++) {
+                    if (arr[j] == id) {
+                        arr.splice(j, id.length);
+                    }
+                }
+                document.getElementById("answer").innerHTML = "";
+                for (var i=0; i<arr.length;i++) {
+                    document.getElementById("answer").innerHTML += arr[i];
+                }
+            }
+
         }
+
     </script>
 
 </head>
@@ -95,6 +112,7 @@
                         </tr>
                     </c:forEach>
                 </table>
+                <p id="answer"></p>
             </div>
 
 
