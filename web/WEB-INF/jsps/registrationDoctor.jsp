@@ -79,7 +79,7 @@
 
 <div id="wrapper">
 
-    <form name="login-form" class="login-form" action="/controller?command=submit" method="post" onsubmit="return validate();">
+    <form name="login-form" class="login-form" action="/controller?command=submit_doctor" method="post" onsubmit="return validate();">
 
         <div class="header">
             <h1>Регистрация</h1>

@@ -16,7 +16,6 @@ public class SubmitDoctorRegistrationCommand implements ActionCommand {
         new DoctorDAO().add(new Doctor(request.getParameter("name"), request.getParameter("surname"),
                 request.getParameter("issue"), request.getParameter("education"), request.getParameter("email"),
                 request.getParameter("login"), request.getParameter("password1")));
-        new DoctorDAO().add(new Doctor("1", "2","3","4","5","6","7"));
         return "/WEB-INF/jsps/registrationSubmit.jsp";
     }
 }
