@@ -44,6 +44,17 @@
             height: 2px; /* Толщина линии */
         }
     </style>
+    <%
+        List<Hospital> hospitalsList = new HospitalDAO().get();
+        request.setAttribute("hospitals", hospitalsList);
+    %>
+
+    <script>
+        function myFunction(id) {
+            var x = document.getElementById(id.toString()).checked;
+            alert("checked " + x + " " + id);
+        }
+    </script>
 
 </head>
 
@@ -63,15 +74,12 @@
                 background: url(../../../../login/images/folders.png) no-repeat top center;
                 background-size:100%" >
 
-            <%
-                List<Hospital> hospitalsList = new HospitalDAO().get();
-                request.setAttribute("hospitals", hospitalsList);
-            %>
+
             <div align="center">
                 <br/>
                 <h3>Выберите больницу для регистрации</h3>
                 <br/>
-                <hr>
+
                 <br/>
                 <table border="5" width="100%" cellpadding="5">
                     <tr>
@@ -81,12 +89,14 @@
                     </tr>
                     <c:forEach items="${hospitals}" var="hospital" varStatus="status">
                         <tr>
-                            <th>  <input type="checkbox" name="option" value="a"><Br></th>
+                            <th>  <input type="checkbox" id="${hospital.getId()}" onclick="myFunction(id)"><Br></th>
                             <th> ${hospital.getId()}</th>
                             <th> ${hospital.getName()}</th>
                         </tr>
                     </c:forEach>
                 </table>
             </div>
+
+
     </body>
 </html>

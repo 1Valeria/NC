@@ -35,7 +35,7 @@
 </head>
 
 <body>
-<% String login = request.getParameter("login"); %>
+<% String login = request.getSession().getAttribute("login").toString(); %>
 <%--     +++++++++++++++   navigation bar   +++++++++++++++++      --%>
 <ul class="topnav" id="myTopnav">
     <li><a class="active" href="/controller?command=main">Главная</a></li>
