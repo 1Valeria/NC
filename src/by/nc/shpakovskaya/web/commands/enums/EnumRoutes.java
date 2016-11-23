@@ -38,9 +38,14 @@ public enum EnumRoutes {
             this.command = new RegistrationDoctorCommand();
         }
     },
-    SUBMIT {
+    SUBMIT_USER {
         {
-            this.command = new SubmitRegistrationCommand();
+            this.command = new SubmitUserRegistrationCommand();
+        }
+    },
+    SUBMIT_DOCTOR {
+        {
+            this.command = new SubmitDoctorRegistrationCommand();
         }
     },
     ACCEPT_REQUESTS {

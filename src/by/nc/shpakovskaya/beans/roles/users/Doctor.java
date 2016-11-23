@@ -20,7 +20,7 @@ public class Doctor extends Entity{
     public Doctor(){}
 
     public Doctor(String name, String surname, String issue, String education, String email, String login,
-                  String password, String admit) {
+                  String password) {
         this.name = name;
         this.surname = surname;
         this.issue = issue;
@@ -28,7 +28,6 @@ public class Doctor extends Entity{
         this.email = email;
         this.login = login;
         this.password = password;
-        this.admit = admit;
     }
 
 

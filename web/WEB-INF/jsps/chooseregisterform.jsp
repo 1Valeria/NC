@@ -54,7 +54,7 @@
                 Пользователь
             </a>
 
-            <a href = "/controller?command=enter"  class="register" >
+            <a href = "/controller?command=registration_doctor"  class="register" >
                 Доктор
             </a>
 

@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * Created by Valeria on 18.11.2016.
  */
-public class SubmitRegistrationCommand implements ActionCommand {
+public class SubmitUserRegistrationCommand implements ActionCommand {
 
     @Override
     public String execute(HttpServletRequest request) {

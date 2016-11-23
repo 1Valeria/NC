@@ -12,6 +12,6 @@ public class RegistrationDoctorCommand implements ActionCommand {
     @Override
     public String execute(HttpServletRequest request) {
 
-        return "/WEB-INF/jsps/registrationUser.jsp";
+        return "/WEB-INF/jsps/registrationDoctor.jsp";
     }
 }

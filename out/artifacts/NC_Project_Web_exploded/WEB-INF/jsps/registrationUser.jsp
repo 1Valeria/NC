@@ -9,6 +9,20 @@
             text-decoration: none;
             list-style-type: none;
         }
+        #wrapper {
+            width: 500px;
+            left: 33%;
+            margin-bottom: 100px;
+        }
+        .login-form {
+            width: 500px;
+            left: 33%;
+            margin-bottom: 100px;
+
+        }
+        .login-form .content .input {
+            width: 400px;
+        }
     </style>
     <script type="text/javascript">
         function validate()
@@ -62,19 +76,19 @@
             <span>Введите ваши регистрационные данные</span>
         </div>
 
-        <div class="content">
-            <p>Имя</p>
+        <div class="content" align="left">
+            <p align="left">Имя</p>
             <input name="name" type="text" class="input username" value="Имя" id="name" onfocus="this.value=''"/>
             <%--<p><style font size="5" color="red" face="Arial"/>Фамилия</p>--%>
-            <p>Фамилия</p>
+            <p align="left">Фамилия</p>
             <input name="surname" type="text" class="input username" value="Фамилия" id="surname" onfocus="this.value=''"/>
-            <p>Логин</p>
+            <p align="left">Логин</p>
             <input name="login" type="text" class="input username" value="Логин" id="login" onfocus="this.value=''"/>
-            <p>Почта</p>
+            <p align="left">Почта</p>
             <input name="email" type="text" class="input username" value="Email" id="email" onfocus="this.value=''"/>
-            <p>Пароль</p>
+            <p align="left">Пароль</p>
             <input name="password1" type="password" class="input password" value="Пароль" id="password1" onfocus="this.value=''"/>
-            <p>Повторите пароль</p>
+            <p align="left">Повторите пароль</p>
             <input name="password2" type="password" class="input password" value="Пароль" id="password2" onfocus="this.value=''"/>
 
         </div>

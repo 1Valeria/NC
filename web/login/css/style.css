@@ -148,7 +148,7 @@ CONTENT
 
 /* Second input field */
 .login-form .content .password, .login-form .content .pass-icon {
-	margin-bottom: 25px;
+	/*margin-bottom: 25px;*/
 }
 
 .login-form .content .input:hover {
