@@ -112,15 +112,20 @@
                         </tr>
                     </c:forEach>
                 </table>
-
+                <br/>
+                <a href="/controller?command=add_department" id="answer" name="answer"></a>
+                <%
+                    String answer = request.getParameter("answer");
+                    System.out.println("answer: " + answer);
+                %>
             </div>
 
-            <a href="/controller?command=add_department" id="answer"/>
+
 
             <%--<div id="wrapper">--%>
                 <%--<form name="login-form" action="/controller?command=department_add"  class="login-form" method="post">--%>
                     <%--<div class="footer">--%>
-                        <%--<input type="submit" id="answer"/>--%>
+                        <%--<a href="/controller?command=pasterefhere" id="answer"/>--%>
                     <%--</div>--%>
                 <%--</form>--%>
             <%--</div>--%>

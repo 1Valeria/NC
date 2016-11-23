@@ -41,6 +41,10 @@ public class PersonalCommand implements ActionCommand {
     String clientSearch(HttpServletRequest request){
         List<Client> clients = new ClientDAO().get();
         for (Client client : clients) {
+            System.out.println("login: " + request.getParameter("login"));
+            System.out.println("password: " + request.getParameter("password"));
+            System.out.println("client.getLogin(): " + client.getLogin());
+            System.out.println("client.getPassword(): " + client.getPassword());
             if(client.getLogin().equals(request.getParameter("login")) &&
                     client.getPassword().equals(request.getParameter("password"))){
                 request.getSession().setAttribute("someone", "logged");
