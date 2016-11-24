@@ -66,11 +66,11 @@
                     <c:forEach items="${hospitals}" var="hospital" varStatus="status">
                         <table border="5" width="100%" cellpadding="5" style="color: #2c4557">
                             <tr>
-                                <th> ${hospital.getName()} </th>
+                                <th colspan="2" align="center"> ${hospital.getName()} </th>
                             </tr>
                             <c:forEach items="${departments}" var="department" varStatus="status">
                                 <c:if test="${department.getHospital().getName()==hospital.getName()}">
-                                    <tr>
+                                    <tr align="left">
                                         <th>${department.getName()}</th>
                                         <th>Глава отделения: ${department.getHeadDoctor()}
                                             <br/>

@@ -11,8 +11,8 @@ import java.util.List;
  * Created by Valeria on 14.11.2016.
  */
 public class ClientDAO implements CommonDAO<Client> {
-    static final String SQL_QUERY_ADD_CLIENT = "INSERT INTO clients (name, surname, email, login, password)"+
-            " VALUES (?,?,?,?,?)";
+    static final String SQL_QUERY_ADD_CLIENT = "INSERT INTO clients (name, surname, email, login, password, admit)"+
+            " VALUES (?,?,?,?,?,?)";
     static final String SQL_QUERY_GET_CLIENTS = "SELECT * FROM clients";
 
     public void add(Client client) {
@@ -27,6 +27,7 @@ public class ClientDAO implements CommonDAO<Client> {
             preparedStatement.setString(3, client.getEmail());
             preparedStatement.setString(4, client.getLogin());
             preparedStatement.setString(5, client.getPassword());
+            preparedStatement.setString(6, client.getAdmit());
             preparedStatement.executeUpdate();
 
         } catch (ClassNotFoundException e) {
@@ -101,6 +102,7 @@ public class ClientDAO implements CommonDAO<Client> {
             client.setEmail(resultSet.getString(4));
             client.setLogin(resultSet.getString(5));
             client.setPassword(resultSet.getString(6));
+            client.setAdmit(resultSet.getString(7));
             clients.add(client);
         }
         return clients;

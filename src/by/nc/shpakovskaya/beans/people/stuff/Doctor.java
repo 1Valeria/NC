@@ -42,7 +42,7 @@ public class Doctor extends Employee implements Assignment, Serializable, Compar
 
     @Override
     public String toString() {
-        return "Doctor " + super.getName();
+        return "Доктор " + super.getName();
     }
 
     @Override

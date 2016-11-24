@@ -58,7 +58,11 @@ public class PersonalCommand implements ActionCommand {
                 session.setAttribute("login", request.getParameter("login"));
                 session.setAttribute("rememberedPath", "/WEB-INF/jsps/personalPages/user/user.jsp");
                 System.out.println("rememberedPath are set");
-                return "/WEB-INF/jsps/personalPages/user/user.jsp";
+                if(client.getAdmit().equals("yes")) {
+                    return "/WEB-INF/jsps/personalPages/user/user.jsp";
+                } else {
+                    return  "/WEB-INF/jsps/enter.jsp";
+                }
             }
         }
         return "";

@@ -20,18 +20,27 @@
         table{
             width: auto;
             height: auto;
-            border: 1px solid black;
+            border: 1px solid #2c4557;
         }
         td {
             padding: 5px 10px 5px 5px;
-            border: 1px solid black;
+            border: 1px solid #2c4557;
         }
 
         th {
             padding: 10px;
-            border: 1px solid black;
+            border: 1px solid #2c4557;
         }
+        #wrapper {
+            margin-bottom: 100px;
+            margin-top: -250px;
+            width: 900px;
+            left: 30%;
+        }
+        .login-form {
+            margin-bottom: 100px;
 
+        }
         caption {
             margin-bottom: 10px;
             font-size: 18px;
@@ -46,6 +55,23 @@
             height: 0px;
         }
     </style>
+
+    <script type="text/javascript">
+        function validate()
+        {
+            var clientId = document.getElementById("clientId");
+            var valid = false;
+            if(clientId.value.length==0)
+            {
+                alert("Заполните все поля");
+                valid = false;
+            }else{
+                valid=true;
+            }
+            return valid;
+        };
+
+    </script>
 
 </head>
 
@@ -66,7 +92,7 @@
             background: url(../../../../login/images/folders.png) no-repeat top center;
             background-size:100%">
 
-<div align="center">
+<div align="center" id="wrapper">
 
     <br/>
     <h3>Личный кабинет</h3>
@@ -86,6 +112,7 @@
             <th> Почта </th>
             <th> Логин </th>
             <th> Пароль </th>
+            <th> Доступ </th>
         </tr>
         <%
             List<Client> clientsList = new ClientDAO().get();
@@ -100,11 +127,35 @@
                 <th> ${client.getEmail()}</th>
                 <th> ${client.getLogin()}</th>
                 <th> ${client.getPassword()}</th>
+                <th> ${client.getAdmit()}</th>
             </tr>
         </c:forEach>
     </table>
-</div>
 
-<div class="gradient"></div>
+    <br/>
+    <br/>
+
+    <form name="login-form" action="/controller?command=department_added" onsubmit="return validate();" class="login-form" method="post">
+
+        <div class="content">
+            <br/>
+            <p align="center">Id для подтверждения заявки: </p>
+            <br/>
+            <input name="clientId" id="clientId" align="center" type="text" class="input username" value="Введите Id" onfocus="this.value=''" />
+            <br/>
+
+        </div>
+
+        <div class="footer">
+            <input type="submit" name="RegisterHospital" value="Подтвердить" class="button" />
+
+            <a href = "/controller?command=personal"  class="register">
+                Назад
+            </a>
+        </div>
+
+    </form>
+
+</div>
 </body>
 </html>
