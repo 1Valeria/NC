@@ -50,9 +50,10 @@
 </head>
 
 <body>
-<% String login = request.getSession().getAttribute("login").toString(); %>
+
 <%--     +++++++++++++++   navigation bar   +++++++++++++++++      --%>
 <ul class="topnav" id="myTopnav">
+    <% String login = request.getSession().getAttribute("login").toString(); %>
     <li><a class="active" href="/controller?command=personal"><%=login%></a></li>
     <li><a class="active" href="/controller?command=main">Главная</a></li>
     <li><a href="/controller?command=logout">Выйти</a></li>
@@ -73,10 +74,6 @@
 
     <hr/>
 
-    <%
-        List<Client> clientsList = new ClientDAO().get();
-        request.setAttribute("clients", clientsList);
-    %>
     <br/>
     <h3>Пользователи</h3>
     <br/>
@@ -90,6 +87,10 @@
             <th> Логин </th>
             <th> Пароль </th>
         </tr>
+        <%
+            List<Client> clientsList = new ClientDAO().get();
+            request.setAttribute("clients", clientsList);
+        %>
         <c:forEach items="${clients}" var="client" varStatus="status">
             <tr>
                 <th>  <input type="checkbox" name="option" value="a"><Br></th>

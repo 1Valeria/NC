@@ -1,9 +1,11 @@
 package by.nc.shpakovskaya.web.commands.inner;
 
 import by.nc.shpakovskaya.beans.roles.administrator.Administrator;
+import by.nc.shpakovskaya.beans.roles.users.Doctor;
 import by.nc.shpakovskaya.beans.roles.users.client.Client;
 import by.nc.shpakovskaya.dao.administrator.AdministratorDAO;
 import by.nc.shpakovskaya.dao.client.ClientDAO;
+import by.nc.shpakovskaya.dao.stuff.DoctorDAO;
 import by.nc.shpakovskaya.web.commands.ActionCommand;
 
 import javax.servlet.http.HttpServletRequest;
@@ -22,6 +24,7 @@ public class PersonalCommand implements ActionCommand {
 
 
         String client = clientSearch(request),
+                doctor = doctorSearch(request),
                 admin = adminSearch(request),
                 enterPage = "/WEB-INF/jsps/enter.jsp";
 
@@ -32,6 +35,8 @@ public class PersonalCommand implements ActionCommand {
             return admin;
         } else if (!client.equals("")) {
             return client;
+        } else if (!doctor.equals("")) {
+            return client;
         } else {
             return enterPage;
         }
@@ -41,10 +46,10 @@ public class PersonalCommand implements ActionCommand {
     String clientSearch(HttpServletRequest request){
         List<Client> clients = new ClientDAO().get();
         for (Client client : clients) {
-            System.out.println("login: " + request.getParameter("login"));
-            System.out.println("password: " + request.getParameter("password"));
-            System.out.println("client.getLogin(): " + client.getLogin());
-            System.out.println("client.getPassword(): " + client.getPassword());
+//            System.out.println("login: " + request.getParameter("login"));
+//            System.out.println("password: " + request.getParameter("password"));
+//            System.out.println("client.getLogin(): " + client.getLogin());
+//            System.out.println("client.getPassword(): " + client.getPassword());
             if(client.getLogin().equals(request.getParameter("login")) &&
                     client.getPassword().equals(request.getParameter("password"))){
                 request.getSession().setAttribute("someone", "logged");
@@ -54,6 +59,23 @@ public class PersonalCommand implements ActionCommand {
                 session.setAttribute("rememberedPath", "/WEB-INF/jsps/personalPages/user/user.jsp");
                 System.out.println("rememberedPath are set");
                 return "/WEB-INF/jsps/personalPages/user/user.jsp";
+            }
+        }
+        return "";
+    }
+
+    String doctorSearch(HttpServletRequest request){
+        List<Doctor> doctors = new DoctorDAO().get();
+        for (Doctor doctor : doctors) {
+            if(doctor.getLogin().equals(request.getParameter("login")) &&
+                    doctor.getPassword().equals(request.getParameter("password"))){
+                request.getSession().setAttribute("someone", "logged");
+                System.out.println("Entered as " + doctor.getLogin());
+                HttpSession session = request.getSession(true);
+                session.setAttribute("login", request.getParameter("login"));
+                session.setAttribute("rememberedPath", "/WEB-INF/jsps/personalPages/user/doctor.jsp");
+                System.out.println("rememberedPath are set");
+                return "/WEB-INF/jsps/personalPages/user/doctor.jsp";
             }
         }
         return "";

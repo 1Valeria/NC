@@ -1,5 +1,6 @@
 package by.nc.shpakovskaya.dao.hospital;
 
+import by.nc.shpakovskaya.beans.Hospital;
 import by.nc.shpakovskaya.beans.departments.Department;
 import by.nc.shpakovskaya.dao.CommonDAO;
 
@@ -12,8 +13,8 @@ import java.util.List;
  */
 public class DepartmentDAO implements CommonDAO<Department> {
 
-    static final String SQL_QUERY_ADD_DEPARTMENTS = "INSERT INTO departments (name)"+
-            " VALUES (?)";
+    static final String SQL_QUERY_ADD_DEPARTMENTS = "INSERT INTO departments (name, id_hospital)"+
+            " VALUES (?, ?)";
     static final String SQL_QUERY_GET_DEPARTMENTS = "SELECT * FROM departments";
 
     public void add(Department department) {
@@ -21,9 +22,43 @@ public class DepartmentDAO implements CommonDAO<Department> {
         PreparedStatement preparedStatement = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
+            String i = "";
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/cracker", "root", "1234");
             preparedStatement = connection.prepareStatement(SQL_QUERY_ADD_DEPARTMENTS);
             preparedStatement.setString(1, department.getName());
+            preparedStatement.executeUpdate();
+
+        } catch (ClassNotFoundException e) {
+            System.out.println("Class driver not found");
+            System.out.println(e.getMessage());
+        } catch (SQLException e) {
+            System.out.println("SQL exception occurred during add department");
+            System.out.println(e.getMessage());
+        } finally {
+            try {
+                if (preparedStatement != null) {
+                    preparedStatement.close();
+                }
+                if (connection != null) {
+                    connection.close();
+                }
+            } catch (SQLException e) {
+                System.out.println("SQL exception occurred during add department");
+                System.out.println(e.getMessage());
+            }
+        }
+    }
+
+    public void add(Department department, Hospital hospital) {
+        Connection connection = null;
+        PreparedStatement preparedStatement = null;
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            String i = "";
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/cracker", "root", "1234");
+            preparedStatement = connection.prepareStatement(SQL_QUERY_ADD_DEPARTMENTS);
+            preparedStatement.setString(1, department.getName());
+            preparedStatement.setInt(2, hospital.getId());
             preparedStatement.executeUpdate();
 
         } catch (ClassNotFoundException e) {
@@ -94,6 +129,13 @@ public class DepartmentDAO implements CommonDAO<Department> {
             Department department = new Department();
             department.setId(resultSet.getInt(1));
             department.setName(resultSet.getString(2));
+            // set hospital to depertment
+            List<Hospital> hospitalList = new HospitalDAO().get();
+            for(Hospital hospital : hospitalList){
+                if(resultSet.getInt(3) == hospital.getId()){
+                    department.setHospital(hospital);
+                }
+            }
             departments.add(department);
         }
         return departments;

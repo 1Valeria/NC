@@ -29,6 +29,24 @@
             padding: 5px 15px;
         }
     </style>
+
+    <script type="text/javascript">
+        function validate()
+        {
+            var hospitalName = document.getElementById("newHospitalName");
+            var valid = false;
+            if(hospitalName.value.length==0)
+            {
+                alert("Заполните все поля");
+                valid = false;
+            }else{
+                valid=true;
+            }
+            return valid;
+        };
+
+    </script>
+
 </head>
 
     <body>
@@ -62,13 +80,13 @@
         <br/>
 
         <div id="wrapper">
-            <form name="login-form" action="/controller?command=hospital_added"  class="login-form" method="post">
+            <form name="login-form" action="/controller?command=hospital_added" onsubmit="return validate();" class="login-form" method="post">
 
                 <div class="content">
                     <br/>
                     <p align="center">Название новой больницы: </p>
                     <br/>
-                    <input name="enter name" align="center" type="text" class="input username" value="Введите название" onfocus="this.value=''" />
+                    <input name="newHospitalName" id="newHospitalName" align="center" type="text" class="input username" value="Введите название" onfocus="this.value=''" />
                 </div>
 
                 <div class="footer">

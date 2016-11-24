@@ -24,6 +24,7 @@
             width: 400px;
         }
     </style>
+
     <script type="text/javascript">
         function validate()
         {
@@ -52,8 +53,8 @@
             }
             return valid;
         };
-
     </script>
+
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Регистрация</title>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>

@@ -8,6 +8,25 @@
             list-style-type: none;
         }
     </style>
+
+    <script type="text/javascript">
+        function validate()
+        {
+            var login = document.getElementById("login");
+            var password = document.getElementById("password");
+            var valid = false;
+            if(login.value.length==0 || password.value.length==0)
+            {
+                alert("Заполните все поля");
+                valid = false;
+            }else{
+                valid=true;
+            }
+            return valid;
+        };
+
+    </script>
+
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Авторизация</title>
     <link href="../../login/css/style.css" rel="stylesheet" type="text/css" />
@@ -29,7 +48,7 @@
     <div class="user-icon"></div>
     <div class="pass-icon"></div>
 
-    <form name="login-form" class="login-form" action="/controller?command=personal" method="post">
+    <form name="login-form" class="login-form" action="/controller?command=personal" onsubmit="return validate();" method="post">
 
         <div class="header">
             <h1>Авторизация</h1>
@@ -38,9 +57,9 @@
 
         <div class="content">
             <p>Логин</p>
-            <input name="login" type="text" class="input username" value="Логин" onfocus="this.value=''" />
+            <input name="login" id="login" type="text" class="input username" value="Логин" onfocus="this.value=''" />
             <p>Пароль</p>
-            <input name="password" type="password" class="input password" value="Пароль" onfocus="this.value=''" />
+            <input name="password" id="password" type="password" class="input password" value="Пароль" onfocus="this.value=''" />
         </div>
 
         <div class="footer">
