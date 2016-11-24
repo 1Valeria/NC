@@ -446,12 +446,12 @@
       <file leaf-file-name="DepartmentDAO.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/hospital/DepartmentDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="134" column="42" selection-start-line="134" selection-start-column="42" selection-end-line="134" selection-end-column="42" />
+            <state relative-caret-position="391">
+              <caret line="131" column="42" selection-start-line="131" selection-start-column="42" selection-end-line="131" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1480019872579" expanded="true" signature="414:487" ph="INSERT INTO departments... " />
-                <marker date="1480019872579" expanded="true" signature="543:568" ph="SELECT * FRO... departments" />
+                <marker date="1480020043653" expanded="true" signature="414:487" ph="INSERT INTO departments... " />
+                <marker date="1480020043653" expanded="true" signature="543:568" ph="SELECT * FRO... departments" />
               </folding>
             </state>
           </provider>
@@ -2075,12 +2075,12 @@
       <workItem from="1479749204990" duration="10850000" />
       <workItem from="1479762507445" duration="2091000" />
       <workItem from="1479833798329" duration="8235000" />
-      <workItem from="1479896022405" duration="40579000" />
+      <workItem from="1479896022405" duration="40753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="593594000" />
+    <option name="totallyTimeSpent" value="593768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -2581,12 +2581,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/hospital/DepartmentDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="134" column="42" selection-start-line="134" selection-start-column="42" selection-end-line="134" selection-end-column="42" />
+        <state relative-caret-position="391">
+          <caret line="131" column="42" selection-start-line="131" selection-start-column="42" selection-end-line="131" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1480019872579" expanded="true" signature="414:487" ph="INSERT INTO departments... " />
-            <marker date="1480019872579" expanded="true" signature="543:568" ph="SELECT * FRO... departments" />
+            <marker date="1480020043653" expanded="true" signature="414:487" ph="INSERT INTO departments... " />
+            <marker date="1480020043653" expanded="true" signature="543:568" ph="SELECT * FRO... departments" />
           </folding>
         </state>
       </provider>

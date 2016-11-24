@@ -129,7 +129,7 @@ public class DepartmentDAO implements CommonDAO<Department> {
             Department department = new Department();
             department.setId(resultSet.getInt(1));
             department.setName(resultSet.getString(2));
-            // set hospital to depertment
+            // set hospital to depertments
             List<Hospital> hospitalList = new HospitalDAO().get();
             for(Hospital hospital : hospitalList){
                 if(resultSet.getInt(3) == hospital.getId()){
