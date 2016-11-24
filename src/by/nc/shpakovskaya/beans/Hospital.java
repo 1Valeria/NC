@@ -4,18 +4,17 @@ import by.nc.shpakovskaya.beans.departments.Department;
 import by.nc.shpakovskaya.dao.Entity;
 
 import java.io.Serializable;
-import java.util.Iterator;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 /**
  * Created by Valeria on 17.10.2016.
  */
 public class Hospital extends Entity implements Serializable {
 
+
     private int id;
     private String name;
-    private Set departments = new TreeSet<Department>();
+    private List<Department> departments = new ArrayList<>();
 
     public Hospital(){}
 
@@ -38,15 +37,18 @@ public class Hospital extends Entity implements Serializable {
     public void setName(String name) {
         this.name = name;
     }
+    public List<Department> getDepartments() {
+        return departments;
+    }
 
+    public void setDepartments(List<Department> departments) {
+        this.departments = departments;
+    }
     public void addDepartment(Department newDep){
         departments.add(newDep);
         newDep.setHospital(this);
     }
 
-    public Set getDepartments(){
-        return departments;
-    }
 
     public void removeDepartment(String department) {
 

@@ -22,16 +22,16 @@
         table{
             width: auto;
             height: auto;
-            border: 1px solid #00ebf6;
+            border: 1px solid #2c4557;
         }
         td {
             padding: 5px 10px 5px 5px;
-            border: 1px solid #00dcf6;
+            border: 1px solid #2c4557;
         }
 
         th {
             padding: 10px;
-            border: 1px solid #00dcf6;
+            border: 1px solid #2c4557;
         }
         #wrapper {
             margin-top: -250px;

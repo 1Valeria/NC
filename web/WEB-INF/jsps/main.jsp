@@ -52,25 +52,33 @@
             </ul>
             <%--    Навигационное меню    --%>
 
-            <%
-                List<Hospital> hospitalList = new HospitalDAO().get();
-                request.getSession().setAttribute("hospitals", hospitalList);
-                List<Department> departmentList = new DepartmentDAO().get();
-                request.getSession().setAttribute("hospitals", hospitalList);
-            %>
-
                 <div align="center">
                     <br/>
                     <h3 style="color: #2c4557">Больницы</h3>
                     <br/>
 
-
+                    <%
+                        List<Hospital> hospitalList = new HospitalDAO().get();
+                        request.getSession().setAttribute("hospitals", hospitalList);
+                        List<Department> departmentList = new DepartmentDAO().get();
+                        request.getSession().setAttribute("departments", departmentList);
+                    %>
                     <c:forEach items="${hospitals}" var="hospital" varStatus="status">
                         <table border="5" width="100%" cellpadding="5" style="color: #2c4557">
                             <tr>
                                 <th> ${hospital.getName()} </th>
                             </tr>
-                            <tr>
+                            <c:forEach items="${departments}" var="department" varStatus="status">
+                                <c:if test="${department.getHospital().getName()==hospital.getName()}">
+                                    <tr>
+                                        <th>${department.getName()}</th>
+                                        <th>Глава отделения: ${department.getHeadDoctor()}
+                                            <br/>
+                                            Диагнозы: ${department.getDiagnoses()}
+                                        </th>
+                                    </tr>
+                                </c:if>
+                                </c:forEach>
 
                         </table>
                         <br>

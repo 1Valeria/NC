@@ -16,14 +16,16 @@ public class DepartmentAddedCommand implements ActionCommand {
     @Override
     public String execute(HttpServletRequest request) {
 
-        String hospitalIdToAdd = request.getParameter("hospitalIdText");
+        int hospitalIdToAdd = Integer.valueOf(request.getParameter("hospitalIdText"));
         String departmentNameToAdd = request.getParameter("departmentNameText");
         List<Hospital> hospitalSet = new HospitalDAO().get();
 
         // можно заменить forEach но будет плохо читаться
         for(Hospital hospital : hospitalSet){
-            if (hospital.getId() == (new Integer(hospitalIdToAdd))){
-                new DepartmentDAO().add(new Department(departmentNameToAdd, hospital), hospital);
+            if (hospital.getId() == (hospitalIdToAdd)){
+                System.out.println("hospital.getId() = " + hospital.getId());
+                System.out.println("hospitalIdToAdd = " + hospitalIdToAdd);
+                new DepartmentDAO().add(new Department(departmentNameToAdd, hospital));
             }
         }
 
