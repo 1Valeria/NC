@@ -11,6 +11,11 @@ public class AcceptRequestsCommand implements ActionCommand {
     @Override
     public String execute(HttpServletRequest request) {
 
-        return "/WEB-INF/jsps/personalPages/administrator/acceptRequests.jsp";
+        if(request.getSession().getAttribute("access").equals("admin")) {
+            return "/WEB-INF/jsps/personalPages/administrator/acceptRequests.jsp";
+        }
+        else {
+            return "/WEB-INF/jsps/requestdenied.jsp";
+        }
     }
 }

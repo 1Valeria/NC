@@ -56,10 +56,10 @@ public class PersonalCommand implements ActionCommand {
             if(client.getLogin().equals(request.getParameter("login")) &&
                     client.getPassword().equals(request.getParameter("password"))){
                 if(client.getAdmit().equals("yes")) {
-                    request.getSession().setAttribute("someone", "logged");
-                    System.out.println("Entered as " + client.getLogin());
-                    System.out.println("getAdmit() = " + client.getAdmit());
+
+
                     HttpSession session = request.getSession(true);
+                    session.setAttribute("access", "client");
                     session.setAttribute("login", request.getParameter("login"));
                     session.setAttribute("rememberedPath", "/WEB-INF/jsps/personalPages/user/user.jsp");
                     System.out.println("rememberedPath are set");
@@ -81,11 +81,12 @@ public class PersonalCommand implements ActionCommand {
             if(doctor.getLogin().equals(request.getParameter("login")) &&
                     doctor.getPassword().equals(request.getParameter("password"))){
                 if(doctor.getAdmit().equals("yes")) {
-                    request.getSession().setAttribute("someone", "logged");
-                    System.out.println("Entered as " + doctor.getLogin());
+
                     HttpSession session = request.getSession(true);
+                    session.setAttribute("access", "doctor");
                     session.setAttribute("login", request.getParameter("login"));
                     session.setAttribute("rememberedPath", "/WEB-INF/jsps/personalPages/user/doctor.jsp");
+
                     System.out.println("rememberedPath are set");
                     return "/WEB-INF/jsps/personalPages/user/doctor.jsp";
                 }
@@ -103,10 +104,12 @@ public class PersonalCommand implements ActionCommand {
         for (Administrator administrator : administrators) {
             if(administrator.getLogin().equals(request.getParameter("login")) &&
                     administrator.getPassword().equals(request.getParameter("password"))){
-                System.out.println("Entered as " + administrator.getLogin());
+
                 HttpSession session = request.getSession(true);
+                session.setAttribute("access", "admin");
                 session.setAttribute("login", request.getParameter("login"));
                 session.setAttribute("rememberedPath", "/WEB-INF/jsps/personalPages/administrator/administrator.jsp");
+
                 System.out.println("rememberedPath are set");
                 return "/WEB-INF/jsps/personalPages/administrator/administrator.jsp";
             }

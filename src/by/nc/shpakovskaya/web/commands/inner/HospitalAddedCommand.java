@@ -12,7 +12,10 @@ import javax.servlet.http.HttpServletRequest;
 public class HospitalAddedCommand implements ActionCommand {
     @Override
     public String execute(HttpServletRequest request) {
-        new HospitalDAO().add(new Hospital(request.getParameter("newHospitalName")));
-        return "/WEB-INF/jsps/personalPages/administrator/hospitaladded.jsp";
+        if(request.getSession().getAttribute("access").equals("admin")) {
+            new HospitalDAO().add(new Hospital(request.getParameter("newHospitalName")));
+            return "/WEB-INF/jsps/personalPages/administrator/hospitaladded.jsp";
+        } else {
+            return "/WEB-INF/jsps/requestdenied.jsp";        }
     }
 }

@@ -10,7 +10,9 @@ import javax.servlet.http.HttpServletRequest;
 public class AddHospitalCommand implements ActionCommand {
     @Override
     public String execute(HttpServletRequest request) {
-
-        return "/WEB-INF/jsps/personalPages/administrator/addhospital.jsp";
+        if(request.getSession().getAttribute("access").equals("admin")) {
+            return "/WEB-INF/jsps/personalPages/administrator/addhospital.jsp";
+        } else {
+            return "/WEB-INF/jsps/requestdenied.jsp";        }
     }
 }

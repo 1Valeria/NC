@@ -11,6 +11,9 @@ public class AddDepartmentCommand implements ActionCommand {
     @Override
     public String execute(HttpServletRequest request) {
 
-        return "/WEB-INF/jsps/personalPages/administrator/adddepartment.jsp";
+        if(request.getSession().getAttribute("access").equals("admin")) {
+            return "/WEB-INF/jsps/personalPages/administrator/adddepartment.jsp";
+        } else {
+            return "/WEB-INF/jsps/requestdenied.jsp";        }
     }
 }

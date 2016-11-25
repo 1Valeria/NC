@@ -339,6 +339,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/enums/EnumRoutes.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/enums/EnumRoutes.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/enums/SQLRequests.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/enums/SQLRequests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AcceptRequestsCommand.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AcceptRequestsCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AddHospitalCommand.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AddHospitalCommand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/EnterCommand.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/EnterCommand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/HospitalAddedCommand.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/HospitalAddedCommand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/LogoutCommand.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/LogoutCommand.java" />
@@ -394,21 +395,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EnumRoutes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/enums/EnumRoutes.java">
+      <file leaf-file-name="RequestAcceptedOrDisabledCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RequestAcceptedOrDisabledCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+            <state relative-caret-position="71">
+              <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="acceptRequests.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/acceptRequests.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="156" column="7" selection-start-line="156" selection-start-column="7" selection-end-line="156" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonalCommand.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddDepartmentCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AddDepartmentCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogoutCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/LogoutCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/MainCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonalCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/PersonalCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="92" column="73" selection-start-line="92" selection-start-column="73" selection-end-line="92" selection-end-column="73" />
+            <state relative-caret-position="939">
+              <caret line="108" column="54" selection-start-line="108" selection-start-column="54" selection-end-line="108" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1864#1940#0" expanded="false" />
@@ -417,103 +460,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enter.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/enter.jsp">
+      <file leaf-file-name="AddHospitalCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AddHospitalCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
+              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/roles/users/client/Client.java">
+      <file leaf-file-name="DepartmentAddedCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/DepartmentAddedCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-476">
-              <caret line="17" column="92" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="92" />
-              <folding>
-                <element signature="method#Client#0;class#Client#0" expanded="false" />
-                <element signature="method#equals#0;class#Client#0" expanded="false" />
-                <element signature="method#hashCode#0;class#Client#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/client/ClientDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="114" column="35" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="35" />
-              <folding>
-                <marker date="1480036748174" expanded="true" signature="359:462" ph="INSERT INTO clients... " />
-                <marker date="1480036748174" expanded="true" signature="514:535" ph="SELECT * FRO... clients" />
-                <marker date="1480036748174" expanded="true" signature="594:634" ph="UPDATE clien... " />
-                <marker date="1480036748174" expanded="true" signature="692:731" ph="UPDATE clien... " />
-                <marker date="1480036748174" expanded="true" signature="4800:4801" ph="UPDATE clien... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestAcceptedOrDisabledCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RequestAcceptedOrDisabledCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="acceptRequests.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/acceptRequests.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1380">
-              <caret line="81" column="47" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="47" />
+            <state relative-caret-position="374">
+              <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoctorDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/stuff/DoctorDAO.java">
+      <file leaf-file-name="EnterCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/EnterCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="128" column="74" selection-start-line="128" selection-start-column="74" selection-end-line="128" selection-end-column="74" />
+            <state relative-caret-position="153">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1480039220539" expanded="true" signature="351:476" ph="INSERT INTO doctors... " />
-                <marker date="1480039220539" expanded="true" signature="528:549" ph="SELECT * FRO... doctors" />
-                <marker date="1480039220539" expanded="true" signature="608:648" ph="UPDATE docto... " />
-                <marker date="1480039220539" expanded="true" signature="706:745" ph="UPDATE docto... " />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Doctor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/roles/users/Doctor.java">
+      <file leaf-file-name="HospitalAddedCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/HospitalAddedCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding>
-                <element signature="method#equals#0;class#Doctor#0" expanded="false" />
-                <element signature="method#hashCode#0;class#Doctor#0" expanded="false" />
-                <element signature="method#toString#0;class#Doctor#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requestdenied.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/requestdenied.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
+            <state relative-caret-position="233">
+              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -548,13 +532,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/administrator/Administrator.java" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/client/Client.java" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/SubmitRegistrationCommand.java" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AddHospitalCommand.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/hospitaladded.jsp" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/DepartmentAdded.java" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AddDepartmentCommand.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/departmentadded.jsp" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/hospital/HospitalDAO.java" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/administrator/AdministratorDAO.java" />
@@ -571,14 +550,11 @@
         <option value="$PROJECT_DIR$/web/login/css/style.css" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/roles/users/Doctor.java" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/Main.java" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/SubmitDoctorRegistrationCommand.java" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/CommonDAO.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/user/doctor.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsps/registrationDoctor.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/addhospital.jsp" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/HospitalAddedCommand.java" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/Hospital.java" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/DepartmentAddedCommand.java" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/hospital/DepartmentDAO.java" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/departments/Department.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsps/main.jsp" />
@@ -591,14 +567,22 @@
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/connectionPool/ConnectionPool.java" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/connectionPool/ConnectionPoolSing.java" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RequestIsNotAllowed.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/requestdenied.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsps/registrationSubmit.jsp" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/enums/EnumRoutes.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsps/enter.jsp" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/stuff/DoctorDAO.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/acceptRequests.jsp" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RequestAcceptedOrDisabledCommand.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RequestIsNotAllowedCommand.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AddDepartmentCommand.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AddHospitalCommand.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/DepartmentAddedCommand.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/HospitalAddedCommand.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AcceptRequestsCommand.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/requestdenied.jsp" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/PersonalCommand.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/SubmitDoctorRegistrationCommand.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/SubmitUserRegistrationCommand.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RequestAcceptedOrDisabledCommand.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/acceptRequests.jsp" />
       </list>
     </option>
   </component>
@@ -748,36 +732,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jsps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="personalPages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2188,12 +2142,12 @@
       <workItem from="1479749204990" duration="10850000" />
       <workItem from="1479762507445" duration="2091000" />
       <workItem from="1479833798329" duration="8235000" />
-      <workItem from="1479896022405" duration="59229000" />
+      <workItem from="1479896022405" duration="67858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="612244000" />
+    <option name="totallyTimeSpent" value="620873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -2208,7 +2162,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48220065" sideWeight="0.52928257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38349515" sideWeight="0.47071743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5226537" sideWeight="0.47071743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2272,16 +2226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/LogoutCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/hospitaladded.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -2290,47 +2234,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/administrator.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RegistrationCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/ChooseRegistrationCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/enums/SQLRequests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RegistrationDoctorCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2346,14 +2254,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AddDepartmentCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="71" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -2430,22 +2330,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/HospitalAddedCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AddHospitalCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/hospital/HospitalDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -2501,50 +2385,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/EnterCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/MainCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AcceptRequestsCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/adddepartment.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/requestmodified.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/DepartmentAddedCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -2565,13 +2409,13 @@
         <state relative-caret-position="102">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#509#521#0" expanded="true" />
-            <element signature="e#578#590#0" expanded="true" />
-            <element signature="e#1994#1995#0" expanded="true" />
-            <element signature="e#2038#2039#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#372#373#0" expanded="false" />
+            <element signature="e#406#407#0" expanded="false" />
+            <element signature="e#509#521#0" expanded="false" />
+            <element signature="e#578#590#0" expanded="false" />
+            <element signature="e#1994#1995#0" expanded="false" />
+            <element signature="e#2038#2039#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2592,55 +2436,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/SubmitUserRegistrationCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/SubmitDoctorRegistrationCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RequestIsNotAllowedCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/registrationSubmit.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/requestdenied.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/enums/EnumRoutes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -2705,32 +2504,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/acceptRequests.jsp">
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/enums/EnumRoutes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1380">
-          <caret line="81" column="47" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="47" />
+        <state relative-caret-position="174">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RequestAcceptedOrDisabledCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/ChooseRegistrationCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        <state relative-caret-position="187">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RegistrationCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RegistrationDoctorCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/administrator.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/requestdenied.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/SubmitDoctorRegistrationCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/SubmitUserRegistrationCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RequestIsNotAllowedCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/requestmodified.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AcceptRequestsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AddDepartmentCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AddHospitalCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/DepartmentAddedCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/EnterCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/HospitalAddedCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/LogoutCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/MainCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/PersonalCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="92" column="73" selection-start-line="92" selection-start-column="73" selection-end-line="92" selection-end-column="73" />
+        <state relative-caret-position="939">
+          <caret line="108" column="54" selection-start-line="108" selection-start-column="54" selection-end-line="108" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1864#1940#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RequestAcceptedOrDisabledCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/acceptRequests.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="156" column="7" selection-start-line="156" selection-start-column="7" selection-end-line="156" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>

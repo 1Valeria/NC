@@ -1,5 +1,7 @@
+<%@ page import="by.nc.shpakovskaya.beans.roles.users.Doctor" %>
 <%@ page import="by.nc.shpakovskaya.beans.roles.users.client.Client" %>
 <%@ page import="by.nc.shpakovskaya.dao.client.ClientDAO" %>
+<%@ page import="by.nc.shpakovskaya.dao.stuff.DoctorDAO" %>
 <%@ page import="java.util.List" %>
 <%--
   Created by IntelliJ IDEA.
@@ -57,7 +59,7 @@
     </style>
 
     <script type="text/javascript">
-        function validate()
+        function validateUser()
         {
             var clientId = document.getElementById("userId");
             var valid = false;
@@ -71,11 +73,25 @@
             return valid;
         };
 
+        function validateDoctor()
+        {
+            var doctorId = document.getElementById("doctorId");
+            var valid = false;
+            if(doctorId.value.length==0)
+            {
+                alert("Заполните все поля");
+                valid = false;
+            }else{
+                valid=true;
+            }
+            return valid;
+        };
+
     </script>
 
     <script>
         var arr = [];
-        function myFunction(id) {
+        function myFunctionUser(id) {
             window.x = document.getElementById(id.toString()).checked;
             if (x){
                 arr.push(id);
@@ -91,9 +107,27 @@
                 for (var i=0; i<arr.length; i++) {
                     document.getElementById("answer").innerHTML += arr[i];
                 }
-
             }
+        }
 
+        var arr2 = [];
+        function myFunctionDoctor(id) {
+            window.y = document.getElementById(id.toString()).checked;
+            if (y){
+                arr2.push(id);
+                document.getElementById("answer2").innerHTML += id;
+            }
+            else{
+                for (var k=0; k<arr2.length; k++) {
+                    if (arr2[k] == id) {
+                        arr2.splice(k, id.length);
+                    }
+                }
+                document.getElementById("answer2").innerHTML = "";
+                for (var z=0; z<arr2.length; z++) {
+                    document.getElementById("answer2").innerHTML += arr2[z];
+                }
+            }
         }
 
     </script>
@@ -114,13 +148,13 @@
 </body>
 
 <body style="
-            background: url(../../../../login/images/folders.png) no-repeat top center;
-            background-size:100%">
+            background: url(../../../../login/images/folders.png) ;
+            background-size: cover; height: 100% ">
 
 <div align="center" id="wrapper">
 
     <br/>
-    <h3>Личный кабинет</h3>
+    <h2>Личный кабинет</h2>
     <br/>
 
     <hr/>
@@ -145,7 +179,7 @@
         %>
         <c:forEach items="${clients}" var="client" varStatus="status">
             <tr>
-                <th>  <input type="checkbox" id="${client.getId()}" onclick="myFunction(id)" value="a"><Br></th>
+                <th>  <input type="checkbox" id="${client.getId()}" onclick="myFunctionUser(id)" value="a"><Br></th>
                 <th> ${client.getId()}</th>
                 <th> ${client.getName()}</th>
                 <th> ${client.getSurname()}</th>
@@ -158,16 +192,77 @@
     </table>
 
     <br/>
-    <a href="/controller?command=add_department" id="answer" name="clientIdText"></a>
+    <a href="/controller?command=x" id="answer" name="clientIdText"></a>
     <br/>
 
-    <form name="login-form" action="/controller?command=request_modified" onsubmit="return validate();" class="login-form" method="post">
+    <form name="login-form" action="/controller?command=request_modified" onsubmit="return validateUser();" class="login-form" method="post">
 
         <div class="content">
             <br/>
-            <p align="center">Id для подтверждения заявки: </p>
+            <p align="center">Id для подтверждения заявки пользователя: </p>
             <br/>
             <input name="userId" id="userId" align="center" type="text" class="input username" value="Введите Id" onfocus="this.value=''" />
+            <br/>
+
+        </div>
+
+        <div class="footer">
+            <input type="submit" name="RegisterHospital" value="Подтвердить" class="button" />
+
+            <a href = "/controller?command=personal"  class="register">
+                Назад
+            </a>
+        </div>
+
+    </form>
+
+    <h3>Доктора</h3>
+    <br/>
+    <table border="5" width="100%" cellpadding="5">
+        <tr>
+            <th> Чек </th>
+            <th> Id </th>
+            <th> Имя </th>
+            <th> Фамилия </th>
+            <th> Страховка </th>
+            <th> Образование </th>
+            <th> Почта </th>
+            <th> Логин </th>
+            <th> Пароль </th>
+            <th> Доступ </th>
+        </tr>
+        <%
+            List<Doctor> doctorsList = new DoctorDAO().get();
+            request.setAttribute("doctors", doctorsList);
+        %>
+        <br/>
+        <c:forEach items="${doctors}" var="doctor" varStatus="status">
+            <tr>
+                <th>  <input type="checkbox" id="${doctor.getId()}" onclick="myFunctionDoctor(id)" value="a"><Br></th>
+                <th> ${doctor.getId()}</th>
+                <th> ${doctor.getName()}</th>
+                <th> ${doctor.getSurname()}</th>
+                <th> ${doctor.getIssue()}</th>
+                <th> ${doctor.getEducation()}</th>
+                <th> ${doctor.getEmail()}</th>
+                <th> ${doctor.getLogin()}</th>
+                <th> ${doctor.getPassword()}</th>
+                <th> ${doctor.getAdmit()}</th>
+            </tr>
+        </c:forEach>
+    </table>
+
+    <br/>
+    <a href="/controller?command=x" id="answer2" name="doctorIdText"></a>
+    <br/>
+
+    <form name="login-form" action="/controller?command=request_modified" onsubmit="return validateDoctor();" class="login-form" method="post">
+
+        <div class="content">
+            <br/>
+            <p align="center">Id для подтверждения заявки доктора: </p>
+            <br/>
+            <input name="doctorId" id="doctorId" align="center" type="text" class="input username" value="Введите Id" onfocus="this.value=''" />
             <br/>
 
         </div>
