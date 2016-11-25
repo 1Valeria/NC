@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: Valeria
-  Date: 18.11.2016
-  Time: 0:26
+  Date: 25.11.2016
+  Time: 4:32
   To change this template use File | Settings | File Templates.
 --%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -17,7 +17,7 @@
         }
     </style>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Регистрация</title>
+    <title>Упс!</title>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
 </head>
 <body>
@@ -32,9 +32,8 @@
 
 <div id="wrapper">
 
-<p align="center"> Вы были зарегестрированы. Попробуйте войти в учетную запись используя указанные при регистрации
-    логин и пароль
-</p>
+    <p align="center"> К сожалению доступ к этой странице Вам закрыт. Подождите пока администратор одобрит вашу заявку.
+    </p>
 
 </div>
 <div class="gradient"></div>

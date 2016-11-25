@@ -38,7 +38,7 @@
 
 <ul class="topnav" id="myTopnav">
     <li><a class="active" href="/controller?command=main">Главная</a></li>
-    <li><a href="/controller?command=choose_registration">Зарегестрироваться</a></li>
+    <li><a href="/controller?command=choose_registration">Регистрация</a></li>
 </ul>
 
 <%--     +++++++++++++++   navigation bar   +++++++++++++++++      --%>

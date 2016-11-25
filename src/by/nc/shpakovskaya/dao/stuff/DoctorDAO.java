@@ -11,9 +11,11 @@ import java.util.List;
  * Created by Valeria on 23.11.2016.
  */
 public class DoctorDAO implements CommonDAO<Doctor> {
-    static final String SQL_QUERY_ADD_DOCTOR = "INSERT INTO doctors (name, surname, issue, education, email, login, password)"+
-            " VALUES (?,?,?,?,?,?,?)";
+    static final String SQL_QUERY_ADD_DOCTOR = "INSERT INTO doctors (name, surname, issue, education, email, login, password, admit)"+
+            " VALUES (?,?,?,?,?,?,?,?)";
     static final String SQL_QUERY_GET_DOCTORS = "SELECT * FROM doctors";
+    static final String SQL_QUERY_UPDATE_DOCTORS_YES = "UPDATE doctors SET admit='yes' WHERE id=";
+    static final String SQL_QUERY_UPDATE_DOCTORS_NO = "UPDATE doctors SET admit='no' WHERE id=";
 
     public void add(Doctor doctor) {
         Connection connection = null;
@@ -29,6 +31,7 @@ public class DoctorDAO implements CommonDAO<Doctor> {
             preparedStatement.setString(5, doctor.getEmail());
             preparedStatement.setString(6, doctor.getLogin());
             preparedStatement.setString(7, doctor.getPassword());
+            preparedStatement.setString(8, doctor.getAdmit());
             preparedStatement.executeUpdate();
 
         } catch (ClassNotFoundException e) {
@@ -105,8 +108,50 @@ public class DoctorDAO implements CommonDAO<Doctor> {
             doctor.setEmail(resultSet.getString(6));
             doctor.setLogin(resultSet.getString(7));
             doctor.setPassword(resultSet.getString(8));
+            doctor.setAdmit(resultSet.getString(9));
             doctors.add(doctor);
         }
         return doctors;
     }
+
+    public void update(boolean flag, int id){
+        Connection connection = null;
+        Statement statement = null;
+        ResultSet resultSet = null;
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            connection = DriverManager.getConnection(
+                    "jdbc:mysql://localhost:3306/cracker", "root", "1234");
+            statement = connection.createStatement();
+            if (flag) {
+                statement.executeUpdate(SQL_QUERY_UPDATE_DOCTORS_YES + id);
+            } else {
+                statement.executeUpdate(SQL_QUERY_UPDATE_DOCTORS_NO + id);
+            }
+
+        } catch (ClassNotFoundException e) {
+            System.out.println("Class driver not found");
+
+        } catch (SQLException e) {
+            System.out.println("SQL exception occurred during update client");
+            System.out.println(e.getMessage());
+
+        } finally {
+            try {
+                if (resultSet != null) {
+                    resultSet.close();
+                }
+                if (statement != null) {
+                    statement.close();
+                }
+                if (connection != null) {
+                    connection.close();
+                }
+            } catch (SQLException e) {
+                System.out.println("SQL exception occurred during add client");
+
+            }
+        }
+    }
+
 }

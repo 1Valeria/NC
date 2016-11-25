@@ -27,7 +27,7 @@ public class PersonalCommand implements ActionCommand {
         String client = clientSearch(request),
                 doctor = doctorSearch(request),
                 admin = adminSearch(request),
-                enterPage = "/WEB-INF/jsps/enter.jsp";
+                accessDenied = "/WEB-INF/jsps/requestdenied.jsp";
 
 
         if (!request.getSession().getAttribute("rememberedPath").toString().equals("")) {
@@ -40,8 +40,8 @@ public class PersonalCommand implements ActionCommand {
         } else if (!doctor.equals("")) {
             return client;
         } else {
-            System.out.println("return to enter page");
-            return enterPage;
+            System.out.println("return to `request is not allowed` page");
+            return accessDenied;
         }
 
     }
@@ -80,13 +80,19 @@ public class PersonalCommand implements ActionCommand {
         for (Doctor doctor : doctors) {
             if(doctor.getLogin().equals(request.getParameter("login")) &&
                     doctor.getPassword().equals(request.getParameter("password"))){
-                request.getSession().setAttribute("someone", "logged");
-                System.out.println("Entered as " + doctor.getLogin());
-                HttpSession session = request.getSession(true);
-                session.setAttribute("login", request.getParameter("login"));
-                session.setAttribute("rememberedPath", "/WEB-INF/jsps/personalPages/user/doctor.jsp");
-                System.out.println("rememberedPath are set");
-                return "/WEB-INF/jsps/personalPages/user/doctor.jsp";
+                if(doctor.getAdmit().equals("yes")) {
+                    request.getSession().setAttribute("someone", "logged");
+                    System.out.println("Entered as " + doctor.getLogin());
+                    HttpSession session = request.getSession(true);
+                    session.setAttribute("login", request.getParameter("login"));
+                    session.setAttribute("rememberedPath", "/WEB-INF/jsps/personalPages/user/doctor.jsp");
+                    System.out.println("rememberedPath are set");
+                    return "/WEB-INF/jsps/personalPages/user/doctor.jsp";
+                }
+                else{
+                    System.out.println("getAdmit() from else = " + doctor.getAdmit());
+                    return  "";
+                }
             }
         }
         return "";

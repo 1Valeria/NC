@@ -59,7 +59,7 @@
     <script type="text/javascript">
         function validate()
         {
-            var clientId = document.getElementById("clientId");
+            var clientId = document.getElementById("userId");
             var valid = false;
             if(clientId.value.length==0)
             {
@@ -167,7 +167,7 @@
             <br/>
             <p align="center">Id для подтверждения заявки: </p>
             <br/>
-            <input name="clientId" id="clientId" align="center" type="text" class="input username" value="Введите Id" onfocus="this.value=''" />
+            <input name="userId" id="userId" align="center" type="text" class="input username" value="Введите Id" onfocus="this.value=''" />
             <br/>
 
         </div>
