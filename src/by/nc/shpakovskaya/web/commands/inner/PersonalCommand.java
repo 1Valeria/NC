@@ -17,18 +17,21 @@ import java.util.List;
  */
 public class PersonalCommand implements ActionCommand {
 
+    Boolean flag=true;
+
     @Override
     public String execute(HttpServletRequest request) {
 
 // здесь можно перенаправлять на личные кабинеты в зависимости от наличия логина и пароля в списках
 
-        // у последнего проверяемого записывается пустой путь
+        // у последнего проверяемого записывается пустой путь    // upd: ???? забыла зачем....
+
+        // rememberedPath для запоминания сессии
 
         String client = clientSearch(request),
                 doctor = doctorSearch(request),
                 admin = adminSearch(request),
                 accessDenied = "/WEB-INF/jsps/requestdenied.jsp";
-
 
         if (!request.getSession().getAttribute("rememberedPath").toString().equals("")) {
             System.out.println("rememberedPath: " + request.getSession().getAttribute("rememberedPath"));
@@ -38,9 +41,10 @@ public class PersonalCommand implements ActionCommand {
         } else if (!client.equals("")) {
             return client;
         } else if (!doctor.equals("")) {
-            return client;
+            return doctor;
         } else {
             System.out.println("return to `request is not allowed` page");
+            System.out.println("rememberedPath: " + request.getSession().getAttribute("rememberedPath"));
             return accessDenied;
         }
 
@@ -82,13 +86,14 @@ public class PersonalCommand implements ActionCommand {
                     doctor.getPassword().equals(request.getParameter("password"))){
                 if(doctor.getAdmit().equals("yes")) {
 
+                    System.out.println("Entered as a doc");
                     HttpSession session = request.getSession(true);
                     session.setAttribute("access", "doctor");
                     session.setAttribute("login", request.getParameter("login"));
-                    session.setAttribute("rememberedPath", "/WEB-INF/jsps/personalPages/user/doctor.jsp");
+                    session.setAttribute("rememberedPath", "/WEB-INF/jsps/personalPages/stuff/doctor.jsp");
 
                     System.out.println("rememberedPath are set");
-                    return "/WEB-INF/jsps/personalPages/user/doctor.jsp";
+                    return "/WEB-INF/jsps/personalPages/stuff/doctor.jsp";
                 }
                 else{
                     System.out.println("getAdmit() from else = " + doctor.getAdmit());
@@ -114,7 +119,7 @@ public class PersonalCommand implements ActionCommand {
                 return "/WEB-INF/jsps/personalPages/administrator/administrator.jsp";
             }
         }
-        request.getSession().setAttribute("rememberedPath", "");
+        flag = false;
         return "";
     }
 

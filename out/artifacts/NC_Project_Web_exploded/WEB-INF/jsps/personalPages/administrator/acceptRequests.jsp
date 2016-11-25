@@ -52,10 +52,6 @@
             background-color: #EEEEEE; /* Цвет линии */
             height: 2px; /* Толщина линии */
         }
-        .gradient{
-            width: 0px;
-            height: 0px;
-        }
     </style>
 
     <script type="text/javascript">

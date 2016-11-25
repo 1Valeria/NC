@@ -1,5 +1,6 @@
 package by.nc.shpakovskaya.beans.roles.users;
 
+import by.nc.shpakovskaya.beans.departments.Department;
 import by.nc.shpakovskaya.dao.Entity;
 
 /**
@@ -16,6 +17,7 @@ public class Doctor extends Entity{
     private String login;
     private String password;
     private String admit = "no";
+    private Department department;
 
     public Doctor(){}
 
@@ -97,6 +99,14 @@ public class Doctor extends Entity{
 
     public String getAdmit() {
         return admit;
+    }
+
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
     }
 
     public void setAdmit(String admit) {

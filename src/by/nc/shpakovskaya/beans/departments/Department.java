@@ -2,30 +2,29 @@ package by.nc.shpakovskaya.beans.departments;
 
 import by.nc.shpakovskaya.beans.Hospital;
 import by.nc.shpakovskaya.beans.diagnosis.Diagnosis;
-import by.nc.shpakovskaya.beans.people.stuff.Doctor;
 import by.nc.shpakovskaya.beans.people.customer.Patient;
 import by.nc.shpakovskaya.beans.people.stuff.Nurse;
+import by.nc.shpakovskaya.beans.roles.users.Doctor;
 import by.nc.shpakovskaya.dao.Entity;
 
 import java.io.Serializable;
-import java.util.GregorianCalendar;
-import java.util.TreeSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
+import java.util.logging.Logger;
 
 /**
  * Created by Valeria on 18.10.2016.
  */
 public class Department extends Entity implements Serializable, Comparable {
 
+    private static final Logger log = Logger.getLogger(Department.class.getName());
+
     private static int counter = 0;
 
     private String name;
-    // better don't look at next line
-    private Doctor headDoctor = new Doctor("", "", new GregorianCalendar(0, 0, 0), "", "", "", 0, "" );
+    private Doctor headDoctor;
     private Hospital hospital;
     private Set diagnoses = new TreeSet<Diagnosis>();
-    private Set doctors = new TreeSet<Doctor>();
+    private List<Doctor> doctors = new ArrayList<>();
     private Set nurses = new TreeSet<Nurse>();
     private Set patients = new TreeSet<Patient>();
     private Set rooms = new TreeSet<Room>();
@@ -82,14 +81,6 @@ public class Department extends Entity implements Serializable, Comparable {
         }
     }
 
-    public Set getDoctors() {
-        return doctors;
-    }
-
-    public void addDoctor(Doctor newDoctor) {
-        doctors.add(newDoctor);
-    }
-
     public void removeDoctor(String doctor) {
 
         Iterator<Doctor> iterator = doctors.iterator();
@@ -116,6 +107,19 @@ public class Department extends Entity implements Serializable, Comparable {
             if (nurseIt.getName().equals(nurse))
                 iterator.remove();
         }
+    }
+
+    public List<Doctor> getDoctors() {
+        return doctors;
+    }
+
+    public void setDoctors(List<Doctor> doctors) {
+        this.doctors = doctors;
+    }
+
+    public void addDoctor(Doctor newDoc){
+        doctors.add(newDoc);
+        newDoc.setDepartment(this);
     }
 
     public Set getPatients() {

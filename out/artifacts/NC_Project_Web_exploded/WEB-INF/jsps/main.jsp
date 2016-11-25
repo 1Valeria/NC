@@ -42,13 +42,27 @@
             <ul class="topnav">
                 <li><a class="active" href="/controller?command=main">Главная</a></li>
 
-                <%--<c:choose>--%>
-                    <%--<c:when test="${isLogged == 'true'}">--%>
-                        <%--<li><a href="/controller?command=">Личный кабинет</a></li>--%>
-                    <%--</c:when>--%>
-                <%--</c:choose>--%>
-                <li><a href="/controller?command=enter">Войти</a></li>
-                <li><a href="/controller?command=choose_registration">Выбрать форму регистрации</a></li>
+                <%
+                    String login = "";
+                    try {
+                        login = request.getSession().getAttribute("login").toString();
+                        System.out.println("LOGIN = " + login);
+                    } catch (Exception exception) {
+                        System.out.println("Not logged, LOGIN = " + login);
+                    }
+                %>
+
+                    <c:choose>
+                        <c:when test="${login.length()>0}">
+                            <li><a href="/controller?command=personal"><%=login%></a></li>
+                        </c:when>
+
+                        <c:otherwise>
+                            <li><a href="/controller?command=enter">Войти</a></li>
+                            <li><a href="/controller?command=choose_registration">Выбрать форму регистрации</a></li>
+                        </c:otherwise>
+                    </c:choose>
+
             </ul>
             <%--    Навигационное меню    --%>
 

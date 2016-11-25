@@ -20,7 +20,9 @@ CREATE TABLE IF NOT EXISTS doctors (
 `login` varchar(100), 
 `password` varchar(100),
 `admit` varchar(5),
-PRIMARY KEY (`id`) )ENGINE=InnoDB CHARACTER SET=UTF8;
+`id_department` int,
+PRIMARY KEY (`id`),
+FOREIGN KEY (`id_department`) REFERENCES departments(`id`) )ENGINE=InnoDB CHARACTER SET=UTF8;
 
 CREATE TABLE IF NOT EXISTS administrators (
 `id` int NOT NULL AUTO_INCREMENT,

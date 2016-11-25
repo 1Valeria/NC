@@ -37,6 +37,7 @@ public class Hospital extends Entity implements Serializable {
     public void setName(String name) {
         this.name = name;
     }
+
     public List<Department> getDepartments() {
         return departments;
     }
@@ -44,6 +45,7 @@ public class Hospital extends Entity implements Serializable {
     public void setDepartments(List<Department> departments) {
         this.departments = departments;
     }
+
     public void addDepartment(Department newDep){
         departments.add(newDep);
         newDep.setHospital(this);
