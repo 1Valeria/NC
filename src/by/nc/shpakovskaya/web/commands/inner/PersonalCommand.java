@@ -22,13 +22,15 @@ public class PersonalCommand implements ActionCommand {
 
 // здесь можно перенаправлять на личные кабинеты в зависимости от наличия логина и пароля в списках
 
+        // у последнего проверяемого записывается пустой путь
 
         String client = clientSearch(request),
                 doctor = doctorSearch(request),
                 admin = adminSearch(request),
                 enterPage = "/WEB-INF/jsps/enter.jsp";
 
-        if (!request.getSession().getAttribute("rememberedPath").toString().isEmpty()) {
+
+        if (!request.getSession().getAttribute("rememberedPath").toString().equals("")) {
             System.out.println("rememberedPath: " + request.getSession().getAttribute("rememberedPath"));
             return request.getSession().getAttribute("rememberedPath").toString();
         } else if (!admin.equals("")) {
@@ -38,6 +40,7 @@ public class PersonalCommand implements ActionCommand {
         } else if (!doctor.equals("")) {
             return client;
         } else {
+            System.out.println("return to enter page");
             return enterPage;
         }
 
@@ -52,16 +55,20 @@ public class PersonalCommand implements ActionCommand {
 //            System.out.println("client.getPassword(): " + client.getPassword());
             if(client.getLogin().equals(request.getParameter("login")) &&
                     client.getPassword().equals(request.getParameter("password"))){
-                request.getSession().setAttribute("someone", "logged");
-                System.out.println("Entered as " + client.getLogin());
-                HttpSession session = request.getSession(true);
-                session.setAttribute("login", request.getParameter("login"));
-                session.setAttribute("rememberedPath", "/WEB-INF/jsps/personalPages/user/user.jsp");
-                System.out.println("rememberedPath are set");
                 if(client.getAdmit().equals("yes")) {
+                    request.getSession().setAttribute("someone", "logged");
+                    System.out.println("Entered as " + client.getLogin());
+                    System.out.println("getAdmit() = " + client.getAdmit());
+                    HttpSession session = request.getSession(true);
+                    session.setAttribute("login", request.getParameter("login"));
+                    session.setAttribute("rememberedPath", "/WEB-INF/jsps/personalPages/user/user.jsp");
+                    System.out.println("rememberedPath are set");
+
+                    System.out.println("getAdmit() from yes = " + client.getAdmit());
                     return "/WEB-INF/jsps/personalPages/user/user.jsp";
                 } else {
-                    return  "/WEB-INF/jsps/enter.jsp";
+                    System.out.println("getAdmit() from else = " + client.getAdmit());
+                    return  "";
                 }
             }
         }
@@ -98,7 +105,7 @@ public class PersonalCommand implements ActionCommand {
                 return "/WEB-INF/jsps/personalPages/administrator/administrator.jsp";
             }
         }
-
+        request.getSession().setAttribute("rememberedPath", "");
         return "";
     }
 

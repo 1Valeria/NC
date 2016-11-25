@@ -73,6 +73,31 @@
 
     </script>
 
+    <script>
+        var arr = [];
+        function myFunction(id) {
+            window.x = document.getElementById(id.toString()).checked;
+            if (x){
+                arr.push(id);
+                document.getElementById("answer").innerHTML += id;
+            }
+            else{
+                for (var j=0; j<arr.length; j++) {
+                    if (arr[j] == id) {
+                        arr.splice(j, id.length);
+                    }
+                }
+                document.getElementById("answer").innerHTML = "";
+                for (var i=0; i<arr.length; i++) {
+                    document.getElementById("answer").innerHTML += arr[i];
+                }
+
+            }
+
+        }
+
+    </script>
+
 </head>
 
 <body>
@@ -120,7 +145,7 @@
         %>
         <c:forEach items="${clients}" var="client" varStatus="status">
             <tr>
-                <th>  <input type="checkbox" name="option" value="a"><Br></th>
+                <th>  <input type="checkbox" id="${client.getId()}" onclick="myFunction(id)" value="a"><Br></th>
                 <th> ${client.getId()}</th>
                 <th> ${client.getName()}</th>
                 <th> ${client.getSurname()}</th>
@@ -133,9 +158,10 @@
     </table>
 
     <br/>
+    <a href="/controller?command=add_department" id="answer" name="clientIdText"></a>
     <br/>
 
-    <form name="login-form" action="/controller?command=department_added" onsubmit="return validate();" class="login-form" method="post">
+    <form name="login-form" action="/controller?command=request_modified" onsubmit="return validate();" class="login-form" method="post">
 
         <div class="content">
             <br/>

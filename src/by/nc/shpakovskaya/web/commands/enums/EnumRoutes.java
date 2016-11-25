@@ -53,6 +53,11 @@ public enum EnumRoutes {
             this.command = new AcceptRequestsCommand();
         }
     },
+    REQUEST_MODIFIED {
+        {
+            this.command = new RequestAcceptedOrDisabledCommand();
+        }
+    },
     ADD_DEPARTMENT {
         {
             this.command = new AddDepartmentCommand();

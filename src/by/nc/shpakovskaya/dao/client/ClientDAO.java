@@ -14,6 +14,8 @@ public class ClientDAO implements CommonDAO<Client> {
     static final String SQL_QUERY_ADD_CLIENT = "INSERT INTO clients (name, surname, email, login, password, admit)"+
             " VALUES (?,?,?,?,?,?)";
     static final String SQL_QUERY_GET_CLIENTS = "SELECT * FROM clients";
+    static final String SQL_QUERY_UPDATE_CLIENTS_YES = "UPDATE clients SET admit='yes' WHERE id=";
+    static final String SQL_QUERY_UPDATE_CLIENTS_NO = "UPDATE clients SET admit='no' WHERE id=";
 
     public void add(Client client) {
         Connection connection = null;
@@ -107,4 +109,45 @@ public class ClientDAO implements CommonDAO<Client> {
         }
         return clients;
     }
+
+    public void update(boolean flag, int id){
+        Connection connection = null;
+        Statement statement = null;
+        ResultSet resultSet = null;
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            connection = DriverManager.getConnection(
+                    "jdbc:mysql://localhost:3306/cracker", "root", "1234");
+            statement = connection.createStatement();
+            if (flag) {
+                statement.executeUpdate(SQL_QUERY_UPDATE_CLIENTS_YES + id);
+            } else {
+                statement.executeUpdate(SQL_QUERY_UPDATE_CLIENTS_NO + id);
+            }
+
+        } catch (ClassNotFoundException e) {
+            System.out.println("Class driver not found");
+
+        } catch (SQLException e) {
+            System.out.println("SQL exception occurred during update client");
+            System.out.println(e.getMessage());
+
+        } finally {
+            try {
+                if (resultSet != null) {
+                    resultSet.close();
+                }
+                if (statement != null) {
+                    statement.close();
+                }
+                if (connection != null) {
+                    connection.close();
+                }
+            } catch (SQLException e) {
+                System.out.println("SQL exception occurred during add client");
+
+            }
+        }
+    }
+
 }
