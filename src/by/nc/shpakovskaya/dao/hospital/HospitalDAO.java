@@ -2,6 +2,7 @@ package by.nc.shpakovskaya.dao.hospital;
 
 import by.nc.shpakovskaya.beans.Hospital;
 import by.nc.shpakovskaya.dao.CommonDAO;
+import by.nc.shpakovskaya.web.connectionPool.ConnectionPoolSing;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -20,7 +21,7 @@ public class HospitalDAO implements CommonDAO<Hospital> {
         PreparedStatement preparedStatement = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/cracker", "root", "1234");
+            connection = ConnectionPoolSing.retrieve();
             preparedStatement = connection.prepareStatement(SQL_QUERY_ADD_HOSPITALS);
             preparedStatement.setString(1, hospital.getName());
             preparedStatement.executeUpdate();
@@ -32,17 +33,7 @@ public class HospitalDAO implements CommonDAO<Hospital> {
             System.out.println("SQL exception occurred during add hospital");
             System.out.println(e.getMessage());
         } finally {
-            try {
-                if (preparedStatement != null) {
-                    preparedStatement.close();
-                }
-                if (connection != null) {
-                    connection.close();
-                }
-            } catch (SQLException e) {
-                System.out.println("SQL exception occurred during add hospital");
-                System.out.println(e.getMessage());
-            }
+            ConnectionPoolSing.putBack(connection);
         }
     }
 
@@ -54,8 +45,7 @@ public class HospitalDAO implements CommonDAO<Hospital> {
         List<Hospital> hospitals = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/cracker", "root", "1234");
+            connection = ConnectionPoolSing.retrieve();
             statement = connection.createStatement();
             resultSet = statement.executeQuery(SQL_QUERY_GET_HOSPITALS);
             hospitals = init(resultSet);
@@ -68,20 +58,7 @@ public class HospitalDAO implements CommonDAO<Hospital> {
             System.out.println(e.getMessage());
 
         } finally {
-            try {
-                if (resultSet != null) {
-                    resultSet.close();
-                }
-                if (statement != null) {
-                    statement.close();
-                }
-                if (connection != null) {
-                    connection.close();
-                }
-            } catch (SQLException e) {
-                System.out.println("SQL exception occurred during add hospital");
-
-            }
+            ConnectionPoolSing.putBack(connection);
         }
         return hospitals;
     }

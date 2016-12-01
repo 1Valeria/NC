@@ -1,12 +1,17 @@
 package by.nc.shpakovskaya;
 
 
+import org.apache.log4j.Logger;
+
 /**
  * Created by Valeria on 20.10.2016.
  */
 public class Main {
+    private static final Logger logger = Logger.getLogger(Main.class);
 
     public static void main(String[] args) {
+
+        logger.info("Main console to check some parts");
 
 /*
 ********* Для работы с командной строкой *********

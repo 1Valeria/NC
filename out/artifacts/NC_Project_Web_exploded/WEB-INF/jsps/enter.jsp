@@ -29,7 +29,7 @@
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Авторизация</title>
-    <link href="../../login/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/style.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
 </head>
 <body>

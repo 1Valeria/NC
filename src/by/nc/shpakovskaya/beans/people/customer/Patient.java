@@ -4,7 +4,7 @@ import by.nc.shpakovskaya.beans.departments.Department;
 import by.nc.shpakovskaya.beans.departments.Room;
 import by.nc.shpakovskaya.beans.diagnosis.Diagnosis;
 import by.nc.shpakovskaya.beans.people.Person;
-import by.nc.shpakovskaya.beans.people.stuff.Doctor;
+import by.nc.shpakovskaya.beans.roles.users.Doctor;
 
 import java.io.Serializable;
 import java.util.GregorianCalendar;

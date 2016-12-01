@@ -1,6 +1,6 @@
 package by.nc.shpakovskaya.beans.roles.users.client;
 
-import by.nc.shpakovskaya.dao.Entity;
+import by.nc.shpakovskaya.beans.Entity;
 
 /**
  * Created by Valeria on 14.11.2016.

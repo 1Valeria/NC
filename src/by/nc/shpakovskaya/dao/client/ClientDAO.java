@@ -2,6 +2,7 @@ package by.nc.shpakovskaya.dao.client;
 
 import by.nc.shpakovskaya.beans.roles.users.client.Client;
 import by.nc.shpakovskaya.dao.CommonDAO;
+import by.nc.shpakovskaya.web.connectionPool.ConnectionPoolSing;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -19,10 +20,10 @@ public class ClientDAO implements CommonDAO<Client> {
 
     public void add(Client client) {
         Connection connection = null;
-        PreparedStatement preparedStatement = null;
+        PreparedStatement preparedStatement;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/cracker", "root", "1234");
+            connection = ConnectionPoolSing.retrieve();
             preparedStatement = connection.prepareStatement(SQL_QUERY_ADD_CLIENT);
             preparedStatement.setString(1, client.getName());
             preparedStatement.setString(2, client.getSurname());
@@ -39,30 +40,19 @@ public class ClientDAO implements CommonDAO<Client> {
             System.out.println("SQL exception occurred during add client");
             System.out.println(e.getMessage());
         } finally {
-            try {
-                if (preparedStatement != null) {
-                    preparedStatement.close();
-                }
-                if (connection != null) {
-                    connection.close();
-                }
-            } catch (SQLException e) {
-                System.out.println("SQL exception occurred during add client");
-                System.out.println(e.getMessage());
-            }
+            ConnectionPoolSing.putBack(connection);
         }
     }
 
     @Override
     public List<Client> get() {
         Connection connection = null;
-        Statement statement = null;
-        ResultSet resultSet = null;
+        Statement statement;
+        ResultSet resultSet;
         List<Client> clients = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/cracker", "root", "1234");
+            connection = ConnectionPoolSing.retrieve();
             statement = connection.createStatement();
             resultSet = statement.executeQuery(SQL_QUERY_GET_CLIENTS);
             clients = init(resultSet);
@@ -75,20 +65,7 @@ public class ClientDAO implements CommonDAO<Client> {
             System.out.println(e.getMessage());
 
         } finally {
-            try {
-                if (resultSet != null) {
-                    resultSet.close();
-                }
-                if (statement != null) {
-                    statement.close();
-                }
-                if (connection != null) {
-                    connection.close();
-                }
-            } catch (SQLException e) {
-                System.out.println("SQL exception occurred during add client");
-
-            }
+            ConnectionPoolSing.putBack(connection);
         }
         return clients;
     }
@@ -116,8 +93,7 @@ public class ClientDAO implements CommonDAO<Client> {
         ResultSet resultSet = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/cracker", "root", "1234");
+            connection = ConnectionPoolSing.retrieve();
             statement = connection.createStatement();
             if (flag) {
                 statement.executeUpdate(SQL_QUERY_UPDATE_CLIENTS_YES + id);
@@ -133,20 +109,7 @@ public class ClientDAO implements CommonDAO<Client> {
             System.out.println(e.getMessage());
 
         } finally {
-            try {
-                if (resultSet != null) {
-                    resultSet.close();
-                }
-                if (statement != null) {
-                    statement.close();
-                }
-                if (connection != null) {
-                    connection.close();
-                }
-            } catch (SQLException e) {
-                System.out.println("SQL exception occurred during add client");
-
-            }
+            ConnectionPoolSing.putBack(connection);
         }
     }
 

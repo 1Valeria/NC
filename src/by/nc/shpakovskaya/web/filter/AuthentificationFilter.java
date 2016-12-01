@@ -14,6 +14,7 @@ import java.io.IOException;
         initParams = { @WebInitParam(name = "INDEX_PATH", value = "index.jsp") })
 public class AuthentificationFilter implements Filter {
     private String indexPath;
+
     public void init(FilterConfig fConfig) throws ServletException {
         indexPath = fConfig.getInitParameter("INDEX_PATH");
     }

@@ -16,19 +16,40 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Hospital/src/peoples/Nurse.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Hospital/src/peoples/Patient.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Hospital/src/peoples/Stuff.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/beans/people/stuff/Doctor.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/web/commands/inner/SubmitRegistrationCommand.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/web/connectionPool/ConnectionPool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/web/filter/AuthentificationFilter.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/jsps/registration.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/login/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/login/fonts/Bree_Serif/BreeSerif-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/login/fonts/Bree_Serif/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/login/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/login/images/folders.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/login/images/gradient.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/login/images/hospital.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/login/images/pass-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/login/images/user-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/beans/people/stuff/Doctor.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/web/commands/inner/SubmitRegistrationCommand.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/web/connectionPool/ConnectionPool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/web/filter/AuthentificationFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/people/stuff/Doctor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/Entity.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/SubmitRegistrationCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/connectionPool/ConnectionPool.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/jsps/registration.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/login/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/login/fonts/Bree_Serif/BreeSerif-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/login/fonts/Bree_Serif/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/login/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/login/images/folders.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/login/images/gradient.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/login/images/hospital.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/login/images/pass-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/login/images/user-icon.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/Main.class" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/beans/Hospital.class" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/beans/Hospital.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/beans/departments/Department.class" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/beans/departments/Department.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/beans/people/stuff/Doctor.class" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/beans/people/stuff/Doctor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/beans/people/customer/Patient.class" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/beans/people/customer/Patient.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/beans/roles/administrator/Administrator.class" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/beans/roles/administrator/Administrator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/beans/roles/users/client/Client.class" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/beans/roles/users/client/Client.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/console/console/menus/editMenu/EditDepartment.class" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/console/console/menus/editMenu/EditDepartment.class" />
@@ -52,12 +73,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/web/commands/inner/AddHospitalCommand.class" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/web/commands/inner/AddHospitalCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/web/commands/inner/HospitalAddedCommand.class" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/web/commands/inner/HospitalAddedCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/web/commands/inner/LogoutCommand.class" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/web/commands/inner/LogoutCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/web/commands/inner/MainCommand.class" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/web/commands/inner/MainCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/web/commands/inner/PersonalCommand.class" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/web/commands/inner/PersonalCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/web/commands/inner/RegistrationCommand.class" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/web/commands/inner/RegistrationCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/web/filter/AuthentificationFilter.class" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/classes/by/nc/shpakovskaya/web/filter/AuthentificationFilter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/Main.class" afterPath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/beans/Hospital.class" afterPath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/beans/Hospital.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/beans/departments/Department.class" afterPath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/beans/departments/Department.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/beans/people/stuff/Doctor.class" afterPath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/beans/people/stuff/Doctor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/beans/people/customer/Patient.class" afterPath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/beans/people/customer/Patient.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/beans/roles/administrator/Administrator.class" afterPath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/beans/roles/administrator/Administrator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/beans/roles/users/client/Client.class" afterPath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/beans/roles/users/client/Client.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/console/console/menus/editMenu/EditDepartment.class" afterPath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/console/console/menus/editMenu/EditDepartment.class" />
@@ -81,8 +104,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/web/commands/inner/AddHospitalCommand.class" afterPath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/web/commands/inner/AddHospitalCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/web/commands/inner/HospitalAddedCommand.class" afterPath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/web/commands/inner/HospitalAddedCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/web/commands/inner/LogoutCommand.class" afterPath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/web/commands/inner/LogoutCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/web/commands/inner/MainCommand.class" afterPath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/web/commands/inner/MainCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/web/commands/inner/PersonalCommand.class" afterPath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/web/commands/inner/PersonalCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/web/commands/inner/RegistrationCommand.class" afterPath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/web/commands/inner/RegistrationCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/web/filter/AuthentificationFilter.class" afterPath="$PROJECT_DIR$/out/production/NC_Project/by/nc/shpakovskaya/web/filter/AuthentificationFilter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/NC_Project_Web_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/NC_Project_Web_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
@@ -326,8 +351,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/jsps/registrationSubmit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/jsps/registrationSubmit.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/login/css/style.css" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/login/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/login/fonts/Bree_Serif/OFL.txt" afterPath="$PROJECT_DIR$/out/artifacts/NC_Project_Web_exploded/login/fonts/Bree_Serif/OFL.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/Main.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/Hospital.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/Hospital.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/departments/Department.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/departments/Department.java" />
@@ -336,7 +359,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/people/Person.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/people/Person.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/people/customer/Patient.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/people/customer/Patient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/people/stuff/Assignment.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/people/stuff/Assignment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/people/stuff/Doctor.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/people/stuff/Doctor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/people/stuff/Employee.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/people/stuff/Employee.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/people/stuff/Nurse.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/people/stuff/Nurse.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/roles/administrator/Administrator.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/roles/administrator/Administrator.java" />
@@ -354,6 +376,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/console/utils/InputRequest.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/console/utils/InputRequest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/console/utils/MenuExceptionCheck.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/console/utils/MenuExceptionCheck.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/console/utils/Save.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/console/utils/Save.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/CommonDAO.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/CommonDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/administrator/AdministratorDAO.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/administrator/AdministratorDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/client/ClientDAO.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/client/ClientDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/hospital/HospitalDAO.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/hospital/HospitalDAO.java" />
@@ -369,7 +392,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/MainCommand.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/MainCommand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/PersonalCommand.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/PersonalCommand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RegistrationCommand.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RegistrationCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/connectionPool/ConnectionPool.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/connectionPool/ConnectionPool.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/filter/AuthentificationFilter.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/filter/AuthentificationFilter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/filter/SetCharacterEncodingFilter.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/filter/SetCharacterEncodingFilter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/servlets/Controller.java" afterPath="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/servlets/Controller.java" />
@@ -382,8 +404,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsps/registrationSubmit.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsps/registrationSubmit.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/css/style.css" afterPath="$PROJECT_DIR$/web/login/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/fonts/Bree_Serif/OFL.txt" afterPath="$PROJECT_DIR$/web/login/fonts/Bree_Serif/OFL.txt" />
     </list>
     <ignored path="NC_Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -418,73 +438,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PersonalCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/PersonalCommand.java">
+      <file leaf-file-name="AdministratorDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/administrator/AdministratorDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+            <state relative-caret-position="-560">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="17" />
               <folding>
-                <element signature="e#2076#2152#0" expanded="false" />
+                <marker date="1480632317478" expanded="true" signature="469:570" ph="INSERT INTO administrators... " />
+                <marker date="1480632317478" expanded="true" signature="636:664" ph="SELECT * FRO... administrators" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/resources/log4j.properties">
+      <file leaf-file-name="ConnectionPoolSing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/connectionPool/ConnectionPoolSing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="89" selection-start-line="11" selection-start-column="89" selection-end-line="11" selection-end-column="89" />
+            <state relative-caret-position="113">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#308#320#0" expanded="true" />
+                <element signature="e#384#396#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#1305#1306#0" expanded="true" />
+                <element signature="e#1349#1350#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/CommonDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/departments/Department.java">
+      <file leaf-file-name="DepartmentDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/hospital/DepartmentDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
+            <state relative-caret-position="-727">
+              <caret line="45" column="17" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="17" />
               <folding>
-                <element signature="e#1232#1233#0" expanded="false" />
-                <element signature="e#1259#1260#0" expanded="false" />
-                <element signature="e#1299#1300#0" expanded="false" />
-                <element signature="e#1331#1332#0" expanded="false" />
-                <element signature="e#1368#1369#0" expanded="false" />
-                <element signature="e#1401#1402#0" expanded="false" />
-                <element signature="e#1453#1454#0" expanded="false" />
-                <element signature="e#1497#1498#0" expanded="false" />
-                <element signature="e#1534#1535#0" expanded="false" />
-                <element signature="e#1565#1566#0" expanded="false" />
-                <element signature="e#1615#1616#0" expanded="false" />
-                <element signature="e#1655#1656#0" expanded="false" />
-                <element signature="e#1688#1689#0" expanded="false" />
-                <element signature="e#1720#1721#0" expanded="false" />
-                <element signature="e#1776#1777#0" expanded="false" />
-                <element signature="e#1819#1820#0" expanded="false" />
-                <element signature="method#removeDiagnosis#0;class#Department#0" expanded="false" />
-                <element signature="method#removeDoctor#0;class#Department#0" expanded="false" />
-                <element signature="e#2452#2453#0" expanded="false" />
-                <element signature="e#2481#2482#0" expanded="false" />
-                <element signature="e#2525#2526#0" expanded="false" />
-                <element signature="e#2561#2562#0" expanded="false" />
-                <element signature="e#2883#2884#0" expanded="false" />
-                <element signature="e#2913#2914#0" expanded="false" />
-                <element signature="e#2965#2966#0" expanded="false" />
-                <element signature="e#3003#3004#0" expanded="false" />
-                <element signature="e#3149#3150#0" expanded="false" />
-                <element signature="e#3180#3181#0" expanded="false" />
-                <element signature="method#addPatient#0;class#Department#0" expanded="false" />
-                <element signature="method#removePatient#0;class#Department#0" expanded="false" />
-                <element signature="e#3637#3638#0" expanded="false" />
-                <element signature="e#3665#3666#0" expanded="false" />
-                <element signature="e#3706#3707#0" expanded="false" />
-                <element signature="e#3740#3741#0" expanded="false" />
-                <element signature="method#removeRoom#0;class#Department#0" expanded="false" />
-                <element signature="method#toString#0;class#Department#0" expanded="false" />
-                <element signature="method#compareTo#0;class#Department#0" expanded="false" />
-                <element signature="method#equals#0;class#Department#0" expanded="false" />
-                <element signature="method#hashCode#0;class#Department#0" expanded="false" />
+                <marker date="1480631806095" expanded="true" signature="479:552" ph="INSERT INTO departments... " />
+                <marker date="1480631806095" expanded="true" signature="608:633" ph="SELECT * FRO... departments" />
               </folding>
             </state>
           </provider>
@@ -493,78 +495,74 @@
       <file leaf-file-name="DoctorDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/stuff/DoctorDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2601">
-              <caret line="158" column="53" selection-start-line="158" selection-start-column="53" selection-end-line="158" selection-end-column="53" />
+            <state relative-caret-position="-506">
+              <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
               <folding>
-                <marker date="1480076080894" expanded="true" signature="351:476" ph="INSERT INTO doctors... " />
-                <marker date="1480076080894" expanded="true" signature="528:549" ph="SELECT * FRO... doctors" />
-                <marker date="1480076080894" expanded="true" signature="608:648" ph="UPDATE docto... " />
-                <marker date="1480076080894" expanded="true" signature="706:745" ph="UPDATE docto... " />
-                <marker date="1480076080894" expanded="true" signature="813:846" ph="UPDATE docto... " />
-                <marker date="1480076080894" expanded="true" signature="813:847" ph="UPDATE docto... " />
+                <marker date="1480633840919" expanded="true" signature="416:542" ph="INSERT INTO doctors... " />
+                <marker date="1480633840919" expanded="true" signature="594:615" ph="SELECT * FRO... doctors" />
+                <marker date="1480633840919" expanded="true" signature="674:714" ph="UPDATE docto... " />
+                <marker date="1480633840919" expanded="true" signature="772:811" ph="UPDATE docto... " />
+                <marker date="1480633840919" expanded="true" signature="879:912" ph="UPDATE docto... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DepartmentDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/hospital/DepartmentDAO.java">
+      <file leaf-file-name="HospitalDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/hospital/HospitalDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+            <state relative-caret-position="-13">
+              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
               <folding>
-                <marker date="1480026058727" expanded="true" signature="414:487" ph="INSERT INTO departments... " />
-                <marker date="1480026058727" expanded="true" signature="543:568" ph="SELECT * FRO... departments" />
+                <marker date="1480634276151" expanded="true" signature="416:471" ph="INSERT INTO hospitals... " />
+                <marker date="1480634276151" expanded="true" signature="525:548" ph="SELECT * FRO... hospitals" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="acceptRequests.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/acceptRequests.jsp">
+      <file leaf-file-name="SubmitDoctorRegistrationCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/SubmitDoctorRegistrationCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3026">
-              <caret line="178" column="43" selection-start-line="178" selection-start-column="43" selection-end-line="178" selection-end-column="43" />
+            <state relative-caret-position="239">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubmitUserRegistrationCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/SubmitUserRegistrationCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="19" column="100" selection-start-line="19" selection-start-column="100" selection-end-line="19" selection-end-column="100" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <file leaf-file-name="ClientDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/client/ClientDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="-1067">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="17" />
+              <folding>
+                <marker date="1480633745853" expanded="true" signature="424:527" ph="INSERT INTO clients... " />
+                <marker date="1480633745853" expanded="true" signature="579:600" ph="SELECT * FRO... clients" />
+                <marker date="1480633745853" expanded="true" signature="659:699" ph="UPDATE clien... " />
+                <marker date="1480633745853" expanded="true" signature="757:796" ph="UPDATE clien... " />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthentificationFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/filter/AuthentificationFilter.java">
+      <file leaf-file-name="PersonalCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/PersonalCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/main.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="55" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
+            <state relative-caret-position="128">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -581,8 +579,8 @@
         <option value="Interface" />
         <option value="Enum" />
         <option value="Singleton" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -599,57 +597,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/hospital/HospitalDAO.java" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/administrator/AdministratorDAO.java" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/roles/users/client/Client.java" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/roles/administrator/Administrator.java" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/LogoutCommand.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/administrator.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/chooseregisterform.jsp" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/ChooseRegistrationCommand.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/registrationDoctor.jsp" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RegistrationDoctorCommand.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/chooseregisterform.jsp" />
-        <option value="$PROJECT_DIR$/web/login/css/style.css" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/Main.java" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/CommonDAO.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/user/doctor.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/registrationDoctor.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/addhospital.jsp" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/hospital/DepartmentDAO.java" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/people/stuff/Doctor.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/registrationUser.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/adddepartment.jsp" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RequestAcceptedOrDisabled.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/requestmodified.jsp" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/client/ClientDAO.java" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/connectionPool/ConnectionPool.java" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/connectionPool/ConnectionPoolSing.java" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RequestIsNotAllowed.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/registrationSubmit.jsp" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/enums/EnumRoutes.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/enter.jsp" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RequestIsNotAllowedCommand.java" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AddDepartmentCommand.java" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AddHospitalCommand.java" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/DepartmentAddedCommand.java" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/HospitalAddedCommand.java" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AcceptRequestsCommand.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RequestAcceptedOrDisabledCommand.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/PersonalCommand.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/departments/Department.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/people/customer/Patient.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/main.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/acceptRequests.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/adddepartment.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/addhospital.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/administrator.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/stuff/doctor.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/user/user.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/chooseregisterform.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/enter.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/registrationDoctor.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/registrationSubmit.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/registrationUser.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsps/requestdenied.jsp" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/resources/MyLogger.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/MainCommand.java" />
+        <option value="$PROJECT_DIR$/NC_Project.iml" />
+        <option value="$PROJECT_DIR$/nc_project.xml" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/roles/users/Doctor.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/filter/AuthentificationFilter.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/Hospital.java" />
+        <option value="$PROJECT_DIR$/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/Main.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/entity/Entity.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/Entity.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/connectionPool/ConnectionPoolSing.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/connectionPool/JDBC.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/hospital/DepartmentDAO.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/administrator/AdministratorDAO.java" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/SubmitDoctorRegistrationCommand.java" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/SubmitUserRegistrationCommand.java" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RequestAcceptedOrDisabledCommand.java" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/Hospital.java" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/roles/users/Doctor.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/acceptRequests.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/stuff/doctor.jsp" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/client/ClientDAO.java" />
         <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/stuff/DoctorDAO.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/main.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/user/user.jsp" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/PersonalCommand.java" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/departments/Department.java" />
-        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/web/filter/AuthentificationFilter.java" />
+        <option value="$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/hospital/HospitalDAO.java" />
       </list>
     </option>
   </component>
@@ -712,7 +710,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -728,6 +726,7 @@
     <panes>
       <pane id="Scope">
         <subPane subId="Problems" />
+        <subPane subId="Changed Files" />
         <subPane subId="Project Files">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
@@ -748,12 +747,209 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="web/WEB-INF">
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="NC_Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="by/nc/shpakovskaya">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="NC_Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="by/nc/shpakovskaya">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="NC_Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="by/nc/shpakovskaya">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="connectionPool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="NC_Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="by/nc/shpakovskaya">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dao">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="NC_Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="by/nc/shpakovskaya">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dao">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="stuff">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="NC_Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="by/nc/shpakovskaya">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dao">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="hospital">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="NC_Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="by/nc/shpakovskaya">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dao">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="client">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="NC_Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="by/nc/shpakovskaya">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dao">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="administrator">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+        <subPane subId="Tests" />
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane />
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -763,513 +959,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpakovskaya" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpakovskaya" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpakovskaya" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpakovskaya" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commands" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpakovskaya" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commands" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpakovskaya" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commands" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enums" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpakovskaya" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpakovskaya" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpakovskaya" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stuff" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpakovskaya" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpakovskaya" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpakovskaya" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpakovskaya" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="roles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpakovskaya" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="roles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpakovskaya" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="roles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpakovskaya" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="people" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NC_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shpakovskaya" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="departments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane">
-        <subPane />
       </pane>
     </panes>
   </component>
@@ -1278,10 +968,10 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26091954" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/additional sources to project/log4j-1.2.17.jar!/" />
     <property name="DefaultHtmlFileTemplate" value="XHTML File" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
@@ -1303,11 +993,11 @@
       <recent name="by.nc.shpakovskaya.dao" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Education_Netcracker\Java projects\NC_Project\src" />
+      <recent name="D:\Education_Netcracker\Java projects\NC_Project\src\by\nc\shpakovskaya" />
+      <recent name="D:\Education_Netcracker\Java projects\NC_Project" />
       <recent name="D:\Education_Netcracker\Java projects\NC_Project\web\WEB-INF\jsps\personalPages\stuff" />
       <recent name="D:\Education_Netcracker\Java projects\NC_Project\web\WEB-INF\jsps" />
-      <recent name="D:\Education_Netcracker\Java projects\NC_Project\web" />
-      <recent name="D:\Education_Netcracker\Java projects\NC_Project\web\WEB-INF\jsps\login" />
-      <recent name="D:\Education_Netcracker\Java projects\NC_Project\web\login\css" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Unnamed">
@@ -2133,12 +1823,17 @@
       <workItem from="1479833798329" duration="8235000" />
       <workItem from="1479896022405" duration="76852000" />
       <workItem from="1480084997461" duration="2240000" />
-      <workItem from="1480240209439" duration="3044000" />
+      <workItem from="1480240209439" duration="4587000" />
+      <workItem from="1480401834608" duration="1777000" />
+      <workItem from="1480508939865" duration="8202000" />
+      <workItem from="1480621111253" duration="733000" />
+      <workItem from="1480621906417" duration="2170000" />
+      <workItem from="1480624133503" duration="9629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="635151000" />
+    <option name="totallyTimeSpent" value="659205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -2153,12 +1848,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48220065" sideWeight="0.52928257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38349515" sideWeight="0.47071743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36407766" sideWeight="0.47071743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30893117" sideWeight="0.48267326" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22474378" sideWeight="0.48267326" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24011713" sideWeight="0.5173267" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2172,7 +1867,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4158576" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2204,209 +1899,10 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/chooseregisterform.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/CommonDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/registrationDoctor.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="81" column="105" selection-start-line="81" selection-start-column="105" selection-end-line="81" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/registrationUser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/connectionPool/ConnectionPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="54" column="7" selection-start-line="0" selection-start-column="2" selection-end-line="59" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/connectionPool/ConnectionPoolSing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/filter/SetCharacterEncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/registrationSubmit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/roles/users/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="17" column="92" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="92" />
-          <folding>
-            <element signature="method#Client#0;class#Client#0" expanded="false" />
-            <element signature="method#equals#0;class#Client#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Client#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/client/ClientDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="114" column="35" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="35" />
-          <folding>
-            <marker date="1480036748174" expanded="true" signature="359:462" ph="INSERT INTO clients... " />
-            <marker date="1480036748174" expanded="true" signature="514:535" ph="SELECT * FRO... clients" />
-            <marker date="1480036748174" expanded="true" signature="594:634" ph="UPDATE clien... " />
-            <marker date="1480036748174" expanded="true" signature="692:731" ph="UPDATE clien... " />
-            <marker date="1480036748174" expanded="true" signature="4800:4801" ph="UPDATE clien... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/enums/EnumRoutes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/ChooseRegistrationCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RegistrationCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RegistrationDoctorCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/requestdenied.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/SubmitDoctorRegistrationCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/SubmitUserRegistrationCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RequestIsNotAllowedCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#331#332#0" expanded="false" />
-            <element signature="e#392#393#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AcceptRequestsCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AddDepartmentCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/AddHospitalCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/DepartmentAddedCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/EnterCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="e#316#317#0" expanded="false" />
-            <element signature="e#364#365#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2414,15 +1910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/MainCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2430,123 +1917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
           <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/hospital/HospitalDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="55" column="43" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="43" />
-          <folding>
-            <marker date="1479764301112" expanded="true" signature="351:406" ph="INSERT INTO hospitals... " />
-            <marker date="1479764301112" expanded="true" signature="460:483" ph="SELECT * FRO... hospitals" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/enter.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/roles/users/Doctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-745">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#equals#0;class#Doctor#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Doctor#0" expanded="false" />
-            <element signature="method#toString#0;class#Doctor#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/people/stuff/Doctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/Hospital.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="method#removeDepartment#0;class#Hospital#0" expanded="false" />
-            <element signature="method#toString#0;class#Hospital#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/adddepartment.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="118" column="39" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/addhospital.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="92" column="45" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/administrator.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-417">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/requestmodified.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/hospitaladded.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/departmentadded.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/stuff/doctor.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="126" column="39" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/user/user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2554,17 +1924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="89" selection-start-line="11" selection-start-column="89" selection-end-line="11" selection-end-column="89" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2573,40 +1932,10 @@
         <state relative-caret-position="153">
           <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
           <folding>
-            <element signature="e#1232#1233#0" expanded="false" />
-            <element signature="e#1259#1260#0" expanded="false" />
-            <element signature="e#1299#1300#0" expanded="false" />
-            <element signature="e#1331#1332#0" expanded="false" />
-            <element signature="e#1368#1369#0" expanded="false" />
-            <element signature="e#1401#1402#0" expanded="false" />
-            <element signature="e#1453#1454#0" expanded="false" />
-            <element signature="e#1497#1498#0" expanded="false" />
-            <element signature="e#1534#1535#0" expanded="false" />
-            <element signature="e#1565#1566#0" expanded="false" />
-            <element signature="e#1615#1616#0" expanded="false" />
-            <element signature="e#1655#1656#0" expanded="false" />
-            <element signature="e#1688#1689#0" expanded="false" />
-            <element signature="e#1720#1721#0" expanded="false" />
-            <element signature="e#1776#1777#0" expanded="false" />
-            <element signature="e#1819#1820#0" expanded="false" />
             <element signature="method#removeDiagnosis#0;class#Department#0" expanded="false" />
             <element signature="method#removeDoctor#0;class#Department#0" expanded="false" />
-            <element signature="e#2452#2453#0" expanded="false" />
-            <element signature="e#2481#2482#0" expanded="false" />
-            <element signature="e#2525#2526#0" expanded="false" />
-            <element signature="e#2561#2562#0" expanded="false" />
-            <element signature="e#2883#2884#0" expanded="false" />
-            <element signature="e#2913#2914#0" expanded="false" />
-            <element signature="e#2965#2966#0" expanded="false" />
-            <element signature="e#3003#3004#0" expanded="false" />
-            <element signature="e#3149#3150#0" expanded="false" />
-            <element signature="e#3180#3181#0" expanded="false" />
             <element signature="method#addPatient#0;class#Department#0" expanded="false" />
             <element signature="method#removePatient#0;class#Department#0" expanded="false" />
-            <element signature="e#3637#3638#0" expanded="false" />
-            <element signature="e#3665#3666#0" expanded="false" />
-            <element signature="e#3706#3707#0" expanded="false" />
-            <element signature="e#3740#3741#0" expanded="false" />
             <element signature="method#removeRoom#0;class#Department#0" expanded="false" />
             <element signature="method#toString#0;class#Department#0" expanded="false" />
             <element signature="method#compareTo#0;class#Department#0" expanded="false" />
@@ -2616,51 +1945,192 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/stuff/DoctorDAO.java">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2601">
-          <caret line="158" column="53" selection-start-line="158" selection-start-column="53" selection-end-line="158" selection-end-column="53" />
-          <folding>
-            <marker date="1480076080894" expanded="true" signature="351:476" ph="INSERT INTO doctors... " />
-            <marker date="1480076080894" expanded="true" signature="528:549" ph="SELECT * FRO... doctors" />
-            <marker date="1480076080894" expanded="true" signature="608:648" ph="UPDATE docto... " />
-            <marker date="1480076080894" expanded="true" signature="706:745" ph="UPDATE docto... " />
-            <marker date="1480076080894" expanded="true" signature="813:846" ph="UPDATE docto... " />
-            <marker date="1480076080894" expanded="true" signature="813:847" ph="UPDATE docto... " />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/hospital/DepartmentDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RegistrationCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-          <folding>
-            <marker date="1480026058727" expanded="true" signature="414:487" ph="INSERT INTO departments... " />
-            <marker date="1480026058727" expanded="true" signature="543:568" ph="SELECT * FRO... departments" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/PersonalCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/RegistrationDoctorCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding>
-            <element signature="e#2076#2152#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/enums/EnumRoutes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/people/stuff/Doctor.java" />
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/people/customer/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/acceptRequests.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3026">
-          <caret line="178" column="43" selection-start-line="178" selection-start-column="43" selection-end-line="178" selection-end-column="43" />
+        <state relative-caret-position="85">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/adddepartment.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/addhospital.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/administrator.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/departmentadded.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/hospitaladded.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/administrator/requestmodified.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/stuff/doctor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="94" column="46" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/personalPages/user/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/chooseregisterform.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/enter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/registrationDoctor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/registrationSubmit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/registrationUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/requestdenied.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/resources/MyLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/MainCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nc_project.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2670,13 +2140,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/filter/AuthentificationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="204">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/Hospital.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="method#removeDepartment#0;class#Hospital#0" expanded="false" />
+            <element signature="method#toString#0;class#Hospital#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/NC_Project.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2684,11 +2175,159 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/main.jsp">
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="55" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
+        <state relative-caret-position="144">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/connectionPool/ConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/beans/roles/users/Doctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="method#equals#0;class#Doctor#0" expanded="false" />
+            <element signature="method#hashCode#0;class#Doctor#0" expanded="false" />
+            <element signature="method#toString#0;class#Doctor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/connectionPool/JDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/CommonDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/SubmitDoctorRegistrationCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/PersonalCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/commands/inner/SubmitUserRegistrationCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="19" column="100" selection-start-line="19" selection-start-column="100" selection-end-line="19" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/hospital/DepartmentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-727">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="17" />
+          <folding>
+            <marker date="1480631806095" expanded="true" signature="479:552" ph="INSERT INTO departments... " />
+            <marker date="1480631806095" expanded="true" signature="608:633" ph="SELECT * FRO... departments" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/client/ClientDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1067">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="17" />
+          <folding>
+            <marker date="1480633745853" expanded="true" signature="424:527" ph="INSERT INTO clients... " />
+            <marker date="1480633745853" expanded="true" signature="579:600" ph="SELECT * FRO... clients" />
+            <marker date="1480633745853" expanded="true" signature="659:699" ph="UPDATE clien... " />
+            <marker date="1480633745853" expanded="true" signature="757:796" ph="UPDATE clien... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/administrator/AdministratorDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-560">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="17" />
+          <folding>
+            <marker date="1480632317478" expanded="true" signature="469:570" ph="INSERT INTO administrators... " />
+            <marker date="1480632317478" expanded="true" signature="636:664" ph="SELECT * FRO... administrators" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/stuff/DoctorDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+          <folding>
+            <marker date="1480633840919" expanded="true" signature="416:542" ph="INSERT INTO doctors... " />
+            <marker date="1480633840919" expanded="true" signature="594:615" ph="SELECT * FRO... doctors" />
+            <marker date="1480633840919" expanded="true" signature="674:714" ph="UPDATE docto... " />
+            <marker date="1480633840919" expanded="true" signature="772:811" ph="UPDATE docto... " />
+            <marker date="1480633840919" expanded="true" signature="879:912" ph="UPDATE docto... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/web/connectionPool/ConnectionPoolSing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#308#320#0" expanded="true" />
+            <element signature="e#384#396#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/nc/shpakovskaya/dao/hospital/HospitalDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+          <folding>
+            <marker date="1480634276151" expanded="true" signature="416:471" ph="INSERT INTO hospitals... " />
+            <marker date="1480634276151" expanded="true" signature="525:548" ph="SELECT * FRO... hospitals" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2715,7 +2354,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.26091954" />
               </list>
             </option>
           </splitter-proportions>
@@ -2726,7 +2365,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.26091954" />
               </list>
             </option>
           </splitter-proportions>
@@ -2738,7 +2377,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.26091954" />
               </list>
             </option>
           </splitter-proportions>
@@ -2758,7 +2397,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mysql-connector-java-5.1.40-bin1</last-edited>
+          <last-edited>log4j-1.2.17</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

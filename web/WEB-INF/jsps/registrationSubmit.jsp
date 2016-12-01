@@ -9,7 +9,7 @@
 <html xmlns:jsp="http://java.sun.com/JSP/Page">
 <%@ page contentType="text/html; charset=utf-8" %>
 <head>
-    <link href="../../login/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/style.css" rel="stylesheet" type="text/css" />
     <style >
         a {
             text-decoration: none;

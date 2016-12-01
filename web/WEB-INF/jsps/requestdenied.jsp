@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: Valeria
@@ -9,7 +10,7 @@
 <html xmlns:jsp="http://java.sun.com/JSP/Page">
 <%@ page contentType="text/html; charset=utf-8" %>
 <head>
-    <link href="../../login/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/style.css" rel="stylesheet" type="text/css" />
     <style >
         a {
             text-decoration: none;
@@ -32,7 +33,22 @@
 
 <div id="wrapper">
 
-    <p align="center"> К сожалению доступ к этой странице Вам закрыт. Подождите пока администратор одобрит вашу заявку.
+    <%-- сделать switch по параметрам--%>
+    <%--сделать валидацию доктора--%>
+
+    <%
+        Boolean loginExists;
+        if(request.getAttribute("loginAlreadyExists").equals("yes")){
+            loginExists = true;
+        }
+        else {loginExists = false;}
+    %>
+    <c:if test="${loginExists}">
+        <p align="center"> Логин уже существует, придумайте новый.
+        </p>
+    </c:if>
+
+    <p align="center"> Ошибка
     </p>
 
 </div>

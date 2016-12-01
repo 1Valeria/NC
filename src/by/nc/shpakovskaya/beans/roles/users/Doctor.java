@@ -1,7 +1,7 @@
 package by.nc.shpakovskaya.beans.roles.users;
 
 import by.nc.shpakovskaya.beans.departments.Department;
-import by.nc.shpakovskaya.dao.Entity;
+import by.nc.shpakovskaya.beans.Entity;
 
 /**
  * Created by Valeria on 21.11.2016.
@@ -19,7 +19,7 @@ public class Doctor extends Entity{
     private String admit = "no";
     private Department department;
 
-    public Doctor(){}
+    public Doctor() {}
 
     public Doctor(String name, String surname, String issue, String education, String email, String login,
                   String password) {

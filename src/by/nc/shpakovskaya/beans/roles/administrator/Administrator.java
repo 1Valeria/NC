@@ -1,6 +1,6 @@
 package by.nc.shpakovskaya.beans.roles.administrator;
 
-import by.nc.shpakovskaya.dao.Entity;
+import by.nc.shpakovskaya.beans.Entity;
 
 /**
  * Created by Valeria on 18.11.2016.

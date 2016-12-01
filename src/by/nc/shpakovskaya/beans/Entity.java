@@ -1,4 +1,4 @@
-package by.nc.shpakovskaya.dao;
+package by.nc.shpakovskaya.beans;
 
 /**
  * Created by Valeria on 21.11.2016.

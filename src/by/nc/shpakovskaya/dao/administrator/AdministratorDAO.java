@@ -2,6 +2,7 @@ package by.nc.shpakovskaya.dao.administrator;
 
 import by.nc.shpakovskaya.beans.roles.administrator.Administrator;
 import by.nc.shpakovskaya.dao.CommonDAO;
+import by.nc.shpakovskaya.web.connectionPool.ConnectionPoolSing;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -21,8 +22,7 @@ public class AdministratorDAO implements CommonDAO<Administrator> {
         PreparedStatement preparedStatement = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/cracker", "root", "1234");
+            connection = ConnectionPoolSing.retrieve();
             preparedStatement = connection
                     .prepareStatement(SQL_QUERY_ADD_ADMINISTRATORS);
             preparedStatement.setString(1, administrator.getName());
@@ -39,17 +39,7 @@ public class AdministratorDAO implements CommonDAO<Administrator> {
             System.out.println("SQL exception occurred during add administrator");
             System.out.println(e.getMessage());
         } finally {
-            try {
-                if (preparedStatement != null) {
-                    preparedStatement.close();
-                }
-                if (connection != null) {
-                    connection.close();
-                }
-            } catch (SQLException e) {
-                System.out.println("SQL exception occurred during add administrator");
-                System.out.println(e.getMessage());
-            }
+            ConnectionPoolSing.putBack(connection);
         }
     }
 
@@ -61,8 +51,7 @@ public class AdministratorDAO implements CommonDAO<Administrator> {
         List<Administrator> administrators = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/cracker", "root", "1234");
+            connection = ConnectionPoolSing.retrieve();
             statement = connection.createStatement();
             resultSet = statement.executeQuery(SQL_QUERY_GET_ADMINISTRATORS);
             administrators = init(resultSet);
@@ -75,20 +64,7 @@ public class AdministratorDAO implements CommonDAO<Administrator> {
             System.out.println(e.getMessage());
 
         } finally {
-            try {
-                if (resultSet != null) {
-                    resultSet.close();
-                }
-                if (statement != null) {
-                    statement.close();
-                }
-                if (connection != null) {
-                    connection.close();
-                }
-            } catch (SQLException e) {
-                System.out.println("SQL exception occurred during add administrator");
-
-            }
+            ConnectionPoolSing.putBack(connection);
         }
         return administrators;
     }

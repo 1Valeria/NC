@@ -20,7 +20,7 @@
 
 <html>
 <head>
-    <link href="login/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <meta charset="UTF-8"/>
     <title>Личный кабинет</title>
     <style>
@@ -92,7 +92,7 @@
 </body>
 
 <body style="
-            background: url(../../../../login/images/folders.png) ;
+            background: url(../../../../assets/images/folders.png) ;
             background-size: cover; height: 100% ">
 
 <div align="center" id="wrapper">

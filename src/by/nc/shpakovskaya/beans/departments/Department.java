@@ -5,7 +5,7 @@ import by.nc.shpakovskaya.beans.diagnosis.Diagnosis;
 import by.nc.shpakovskaya.beans.people.customer.Patient;
 import by.nc.shpakovskaya.beans.people.stuff.Nurse;
 import by.nc.shpakovskaya.beans.roles.users.Doctor;
-import by.nc.shpakovskaya.dao.Entity;
+import by.nc.shpakovskaya.beans.Entity;
 
 import java.io.Serializable;
 import java.util.*;

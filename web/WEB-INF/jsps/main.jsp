@@ -14,7 +14,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
     <head>
-        <link href="../../login/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="../../assets/css/style.css" rel="stylesheet" type="text/css" />
         <style>
 
             table{
@@ -35,7 +35,7 @@
         </style>
     </head>
 
-    <body style="background: url(../../login/images/hospital.png) no-repeat top center;">
+    <body style="background: url(../../assets/images/hospital.png) no-repeat top center;">
         <div>
 
             <%--    Навигационное меню    --%>
@@ -88,7 +88,7 @@
                                         <th>${department.getName()}</th>
                                         <th>Глава отделения: ${department.getHeadDoctor()}
                                             <br/>
-                                            Диагнозы: ${department.getDiagnoses()}
+                                            Описание: ${department.getDiagnoses()}
                                         </th>
                                     </tr>
                                 </c:if>

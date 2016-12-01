@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 public class MainCommand implements ActionCommand {
     @Override
     public String execute(HttpServletRequest request) {
+
         return "/WEB-INF/jsps/main.jsp";
     }
 }

@@ -1,7 +1,6 @@
 package by.nc.shpakovskaya.web.connectionPool;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Vector;
 
@@ -9,42 +8,19 @@ import java.util.Vector;
  * Created by Valeria on 25.11.2016.
  */
 public class ConnectionPoolSing {
-    private static ConnectionPoolSing ourInstance = new ConnectionPoolSing();
 
-    public static ConnectionPoolSing getInstance() {
-        return ourInstance;
+    private static String url;
+    private static Vector<Connection> availableConns = new Vector<Connection>();
+    private static Vector<Connection> usedConns = new Vector<Connection>();
+
+    private static JDBC jdbc = new JDBC();
+
+    private static Connection getConnection() {
+        return jdbc.getConnection();
     }
 
-    private ConnectionPoolSing() {
-    }
+    public static synchronized Connection retrieve() throws SQLException {
 
-    private Vector<Connection> availableConns = new Vector<Connection>();
-    private Vector<Connection> usedConns = new Vector<Connection>();
-    private String url;
-
-    public ConnectionPoolSing(String url, String driver, int initConnCnt) {
-        try {
-            Class.forName(driver);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        this.url = url;
-        for (int i = 0; i < initConnCnt; i++) {
-            availableConns.addElement(getConnection());
-        }
-    }
-
-    private Connection getConnection() {
-        Connection conn = null;
-        try {
-            conn = DriverManager.getConnection(url);
-        } catch (Exception e) {
-            System.out.print(e.getMessage());
-        }
-        return conn;
-    }
-
-    public synchronized Connection retrieve() throws SQLException {
         Connection newConn = null;
         if (availableConns.size() == 0) {
             newConn = getConnection();
@@ -56,12 +32,12 @@ public class ConnectionPoolSing {
         return newConn;
     }
 
-    public synchronized void putback(Connection c) throws NullPointerException {
+    public static synchronized void putBack(Connection c) throws NullPointerException {
         if (c != null) {
             if (usedConns.removeElement(c)) {
                 availableConns.addElement(c);
             } else {
-                throw new NullPointerException("Connection not in the usedConns array");
+                throw new NullPointerException("Error connection");
             }
         }
     }
@@ -69,5 +45,4 @@ public class ConnectionPoolSing {
     public int getAvailableConnsCnt() {
         return availableConns.size();
     }
-
 }

@@ -1,10 +1,11 @@
 package by.nc.shpakovskaya.beans;
 
 import by.nc.shpakovskaya.beans.departments.Department;
-import by.nc.shpakovskaya.dao.Entity;
 
 import java.io.Serializable;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 /**
  * Created by Valeria on 17.10.2016.

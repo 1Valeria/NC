@@ -47,7 +47,7 @@
 </body>
 
 <body style="
-            background: url(../../../../login/images/folders.png) no-repeat top center;
+            background: url(../../../../assets/images/folders.png) no-repeat top center;
             background-size:100%">
 
 <div align="center">
