@@ -1,7 +1,7 @@
 package by.nc.shpakovskaya.web.commands;
 
 import by.nc.shpakovskaya.web.commands.enums.EnumRoutes;
-import by.nc.shpakovskaya.web.commands.inner.EnterCommand;
+import by.nc.shpakovskaya.web.commands.commandsclasses.EnterCommand;
 
 import javax.servlet.http.HttpServletRequest;
 

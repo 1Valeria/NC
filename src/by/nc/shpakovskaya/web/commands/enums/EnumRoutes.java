@@ -1,7 +1,7 @@
 package by.nc.shpakovskaya.web.commands.enums;
 
 import by.nc.shpakovskaya.web.commands.ActionCommand;
-import by.nc.shpakovskaya.web.commands.inner.*;
+import by.nc.shpakovskaya.web.commands.commandsclasses.*;
 
 /**
  * Created by Valeria on 13.11.2016.

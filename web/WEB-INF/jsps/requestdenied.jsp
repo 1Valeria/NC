@@ -36,17 +36,6 @@
     <%-- сделать switch по параметрам--%>
     <%--сделать валидацию доктора--%>
 
-    <%
-        Boolean loginExists;
-        if(request.getAttribute("loginAlreadyExists").equals("yes")){
-            loginExists = true;
-        }
-        else {loginExists = false;}
-    %>
-    <c:if test="${loginExists}">
-        <p align="center"> Логин уже существует, придумайте новый.
-        </p>
-    </c:if>
 
     <p align="center"> Ошибка
     </p>

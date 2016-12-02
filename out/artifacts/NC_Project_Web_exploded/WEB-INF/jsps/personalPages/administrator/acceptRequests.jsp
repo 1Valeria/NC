@@ -143,9 +143,7 @@
 
 </body>
 
-<body style="
-            background: url(../../../../assets/images/folders.png) ;
-            background-size: cover; height: 100% ">
+<body >
 
 <div align="center" id="wrapper">
 
@@ -210,7 +208,26 @@
             </a>
         </div>
 
-    </form>
+        </form>
+    <form name="login-form" action="/controller?command=request_modified" onsubmit="return validateUser();" class="login-form" method="post">
+        <div class="content">
+            <br/>
+            <p align="center">Id для удаления пользователя: </p>
+            <br/>
+            <input name="userId" id="userId2" align="center" type="text" class="input username" value="Введите Id" onfocus="this.value=''" />
+            <br/>
+
+        </div>
+
+        <div class="footer">
+            <input type="submit" name="RegisterHospital" value="Удалить" class="button" />
+
+            <a href = "/controller?command=personal"  class="register">
+                Назад
+            </a>
+        </div>
+</form>
+
 
     <h3>Доктора</h3>
     <br/>
